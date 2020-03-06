@@ -1,0 +1,19 @@
+<div class="imageboxElement <%=element.class%>">
+	
+	<% if($.isArray(element.imagegallery)){ %>
+	<div class="swiper-container">
+		<div class="swiper-wrapper swiper-wrapper-mannual">
+
+			<% _.each(element.imagegallery, function(imagegallery,index){ %>
+			<div class="swiper-slide">
+				<img src="<%=imagegallery.imagepath%>" border="0" />
+			</div>
+			<%});%>
+
+		</div>
+		<div class="pagination"></div>
+	</div>
+	<% }else{ %>
+		<img src="<%=element.image%>">
+	<%}%>
+</div>

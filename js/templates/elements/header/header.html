@@ -1,0 +1,31 @@
+<div class="headerWrapper">
+	<%
+		var bookmarkEnabled = App.Models.user.get("bookmarksConfig") && true;
+		var notesEnabled = App.Models.user.get("notesConfig") && true;
+		
+		if (bookmarkEnabled || notesEnabled) {
+	%>
+		<!-- <ul class="btnGroupHeader">
+			<% if (bookmarkEnabled) { %>
+				<li class="btnBookmark spriteIcon" id="btnBookmarkModal" bookmark-name="<%=element.name%>"></li>
+			<%}
+			if (notesEnabled) {%>
+				<li class="btnNote spriteIcon" id="btnNoteModal"></li>
+			<%}%>
+		</ul> -->
+	<%}%>
+	<div class="btnClose spriteIcon" id="btnCloseModal"></div>
+	<% if (notesEnabled) { %>
+		<div class="notesElement" id="noteBox">
+			<div class="notesTitle" id="noteDragger">
+				<input type="text" maxlength="25" name="notesHeading" placeholder="Enter Title" id="notesTitle" note-name="<%=element.name%>">
+					<i class="spriteIcon icoDelete" id="notesDelete"></i>
+					<i class="spriteIcon icoClose" id="notesClose"></i>
+			</div>
+			<div class="note">
+				<textarea id="noteArea" note-name="<%=element.name %>"></textarea>
+			</div>
+		</div>
+	<%}%>
+
+</div>

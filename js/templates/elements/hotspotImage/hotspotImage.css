@@ -1,0 +1,27 @@
+.hotspotImageXY {
+	position: relative;
+	width: 100%;
+}
+
+.hotspotImageXY img {
+	max-width: 100%;
+}
+
+
+.imageboxhotspot{
+    height: 378px;
+    margin-left: 14%;
+    margin-top: 10%;
+    width: 70%;
+}
+
+.viewhotspot img{
+	height: 100px;	
+	width: 181px;
+}
+
+
+.planhotspot img{
+	height: auto;	
+	width: 120px;
+}

@@ -1,0 +1,32 @@
+
+
+/*title btn element*/
+.titleButton {
+    position: absolute;
+    z-index: 99999;
+}
+.titleButton a, .titleButton a:visited, .titleButton a:link, .titleButton a:active {
+    display: block;
+    text-decoration: none;
+    width: 144px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #a7a7a7;
+    font-family: 'helveticaneueRoman';
+    font-size: 13px;
+    padding-top:7px;
+    color: #dcdddf;
+    text-shadow: 0px -1.5px 2px rgba(0,0,0,0.5);
+    letter-spacing: 0.5px;
+    background-color: #e83a41;
+    background-image: -moz-linear-gradient(top, #e83a41, #c1171e);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#e83a41), to(#c1171e));
+    background-image: -webkit-linear-gradient(top, #e83a41, #c1171e);
+    background-image: -o-linear-gradient(top, #e83a41, #c1171e);
+    background-image: linear-gradient(to bottom, #e83a41, #c1171e);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffe83a41', endColorstr='#ffc1171e', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+}
+
+/*title btn element*/

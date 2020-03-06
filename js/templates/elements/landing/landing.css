@@ -1,0 +1,104 @@
+.logoremedi{
+	border:none;
+	height:200px;
+	width:130px;
+}
+
+.logoremedi img{
+	height: 100%;
+	width: 100%;
+}
+
+
+.homepageWelcomeText{
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 150px;
+}
+
+.companyname{
+	padding-top:10px;
+	font-size:14px;
+}
+
+/*-------------------landing element-------------------------*/
+
+.landingWrapper .opaque {
+    position: absolute;
+    width: 1024px;
+    /* height: 768px; */
+    background: url("../img/lowRes/back2.jpg");
+/*     background-color: rgba(0, 0, 0, 0.55); */
+    z-index: 1;
+}
+.ie8 .landingWrapper .opaque{
+    background: url("../img/lowRes/modalBoxBg.png") 0px 0px repeat;
+}
+.landingScreen {
+    width: 1024px;
+  /*   height: 768px; */
+    background-color: #fff;
+/*     background: url("../img/lowRes/vehicles/corolla/welcomeScreen.jpg") 0 0 no-repeat; Santosh*/
+}
+
+
+.landingElement {
+    margin: 0 auto;
+    padding:0 10px;
+  /*   padding-bottom: 30px;
+    padding-left: 30px; */
+    width: 98%;
+    z-index: 1;
+/*     
+       background: linear-gradient(to bottom, #FFFFFF, #F3F3F3) repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 6px 6px 6px 6px; */
+
+}
+
+.landingElement h1 {
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 24px;
+    color: #303030;
+    margin-bottom: 7px;
+}
+
+.landingElement .landingInfo {
+    font-family: 'helveticaneueRoman';
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #303030;
+}
+
+.beginLink, .beginLink:link, .beginLink:visited, .beginLink:active {
+    /* position: absolute; */
+    display: block;
+    text-decoration: none;
+    font-family: 'helveticaneueBold';
+    font-size: 20px;
+    line-height: 44px;
+    color: #303030;
+    z-index: 99999;
+}
+
+.beginLink:hover {
+    color: #545353;
+}
+
+.beginLink i {
+    background-position: -164px -5px;
+    width: 40px;
+    height: 44px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin-left: 10px;
+    margin-top: -4px;
+}
+.beginLink:hover i{
+    width: 54px;
+    background-position: -208px -5px;
+}
+
+/*--------------------landing element------------------------*/

@@ -1,0 +1,186 @@
+<div id="containerTop" onMouseDown="clickContainer()" style="width:1024px;height:384px;">
+    This content requires HTML5/CSS3, WebGL, or Adobe Flash Player Version 9 or higher.
+</div>
+<div id="containerBottom" onMouseDown="clickContainer1()" style="width:1024px;height:384px;">
+    This content requires HTML5/CSS3, WebGL, or Adobe Flash Player Version 9 or higher.
+</div>
+
+<script type="text/javascript">
+    // create the panorama player with the container
+    var flg=0;
+    if (ggHasHtml5Css3D() || ggHasWebGL()) {
+
+        // create the panorama player with the container
+        panoTop=new pano2vrPlayer("containerTop");
+        // add the skin object
+        skin=new pano2vrSkin(panoTop);
+        // load the configuration
+        panorama='';
+        panorama+='<panorama id="" hideabout="1">';
+        panorama+='  <view fovmode="0" pannorth="0">';
+        panorama+='    <start pan="0" fov="55" tilt="-30"/>';
+        panorama+='    <min pan="0" fov="55" tilt="-90"/>';
+        panorama+='    <max pan="360" fov="55" tilt="90"/>';
+        panorama+='  </view>';
+        panorama+='  <userdata title="" datetime="2013:04:22 12:27:28" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>';
+        /*    panorama+='  <hotspots width="180" height="0" wordwrap="1">';
+         panorama+='    <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>';
+         panorama+='    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>';
+         panorama+='    <hotspot title="" target="_self" pan="-2.22735" skinid="" url="http://www.google.com" id="Rhot" tilt="-14.0506"/>';
+         panorama+='    <hotspot title="" target="_self" pan="35.8209" skinid="" url="http://www.google.com" id="Rhot" tilt="-19.7453"/>';
+         panorama+='    <hotspot title="" target="_self" pan="46.692" skinid="" url="http://www.google.com" id="Rhot" tilt="-24.1438"/>';
+         panorama+='    <hotspot title="" target="_self" pan="8.142440000000001" skinid="" url="http://www.google.com" id="Rhot" tilt="-28.1977"/>';
+         panorama+='    <hotspot title="" target="_self" pan="-6.68841" skinid="" url="http://www.google.com" id="Rhot" tilt="-34.6878"/>';
+         panorama+='    <hotspot title="" target="_self" pan="7.80457" skinid="" url="http://www.google.com" id="Rhot" tilt="-40.1293"/>';
+         panorama+='    <hotspot title="" target="_self" pan="2.6328" skinid="" url="http://www.google.com" id="Rhot" tilt="-57.2299"/>';
+         panorama+='    <hotspot title="" target="_self" pan="-50.3729" skinid="" url="http://www.google.com" id="Rhot" tilt="-18.1305"/>';
+         panorama+='    <hotspot title="" target="_self" pan="73.33320000000001" skinid="" url="http://www.google.com" id="Rhot" tilt="-30.2755"/>';
+         panorama+='    <hotspot title="" target="_self" pan="131.79" skinid="" url="http://www.google.com" id="Rhot" tilt="-26.6078"/>';
+         panorama+='    <hotspot title="" target="_self" pan="-163.429" skinid="" url="http://www.google.com" id="Rhot" tilt="-4.92599"/>';
+         panorama+='  </hotspots>';*/
+        panorama+='  <media/>';
+        panorama+='  <input tile0url="img/lowRes/vehicles/corolla/interior360/toyota_o_0.jpg" prev5url="img/lowRes/vehicles/corolla/interior360/toyota_o_preview_5.jpg" prev4url="img/lowRes/vehicles/corolla/interior360/toyota_o_preview_4.jpg" prev3url="img/lowRes/vehicles/corolla/interior360/toyota_o_preview_3.jpg" prev2url="img/lowRes/vehicles/corolla/interior360/toyota_o_preview_2.jpg" prev1url="img/lowRes/vehicles/corolla/interior360/toyota_o_preview_1.jpg" prev0url="img/lowRes/vehicles/corolla/interior360/toyota_o_preview_0.jpg" tile5url="img/lowRes/vehicles/corolla/interior360/toyota_o_5.jpg" tilesize="548" tile4url="img/lowRes/vehicles/corolla/interior360/toyota_o_4.jpg" tile3url="img/lowRes/vehicles/corolla/interior360/toyota_o_3.jpg" tilescale="1.018248175182482" tile2url="img/lowRes/vehicles/corolla/interior360/toyota_o_2.jpg" tile1url="img/lowRes/vehicles/corolla/interior360/toyota_o_1.jpg"/>';
+        panorama+='  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="10"/>';
+        panorama+='</panorama>';
+        panorama+='';
+        panoTop.readConfigString(panorama);
+
+        // create the panorama player with the container
+        panoBottom=new pano2vrPlayer("containerBottom");
+        // add the skin object
+        skin=new pano2vrSkin(panoBottom);
+        // load the configuration
+        panorama1='';
+        panorama1+='<panorama id="" hideabout="1">';
+        panorama1+='  <view fovmode="0" pannorth="0">';
+        panorama1+='    <start pan="0" fov="55" tilt="-30"/>';
+        panorama1+='    <min pan="0" fov="55" tilt="-90"/>';
+        panorama1+='    <max pan="360" fov="55" tilt="90"/>';
+        panorama1+='  </view>';
+        panorama1+='  <userdata title="" datetime="2013:04:22 12:27:28" description="" copyright="" tags="" author="" source="" comment="" info="" longitude="" latitude=""/>';
+        panorama1+='  <hotspots width="180" height="0" wordwrap="1">';
+        panorama1+='    <label width="180" backgroundalpha="1" enabled="1" height="0" backgroundcolor="0xffffff" bordercolor="0x000000" border="1" textcolor="0x000000" background="1" borderalpha="1" borderradius="1" wordwrap="1" textalpha="1"/>';
+        panorama1+='    <polystyle mode="0" backgroundalpha="0.2509803921568627" backgroundcolor="0x0000ff" bordercolor="0x0000ff" borderalpha="1"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="-2.22735" skinid="" url="#chapter-2/section-1/page-3/modal-0" id="Rhot" tilt="-14.0506"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="35.8209" skinid="" url="#chapter-2/section-1/page-3/modal-1" id="Rhot" tilt="-19.7453"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="46.692" skinid="" url="#chapter-2/section-1/page-3/modal-2" id="Rhot" tilt="-24.1438"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="8.142440000000001" skinid="" url="#chapter-2/section-1/page-3/modal-3" id="Rhot" tilt="-28.1977"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="-6.68841" skinid="" url="#chapter-2/section-1/page-3/modal-4" id="Rhot" tilt="-34.6878"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="7.80457" skinid="" url="#chapter-2/section-1/page-3/modal-5" id="Rhot" tilt="-40.1293"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="2.6328" skinid="" url="#chapter-2/section-1/page-3/modal-6" id="Rhot" tilt="-57.2299"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="-50.3729" skinid="" url="#chapter-2/section-1/page-3/modal-7" id="Rhot" tilt="-18.1305"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="73.33320000000001" skinid="" url="#chapter-2/section-1/page-3/modal-8" id="Rhot" tilt="-30.2755"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="131.79" skinid="" url="#chapter-2/section-1/page-3/modal-9" id="Rhot" tilt="-26.6078"/>';
+        panorama1+='    <hotspot title="" target="_self" pan="-163.429" skinid="" url="#chapter-2/section-1/page-3/modal-10" id="Rhot" tilt="-4.92599"/>';
+        panorama1+='  </hotspots>';
+        panorama1+='  <media/>';
+        panorama1+='  <input tile0url="img/lowRes/vehicles/corolla/interior360/dodge_o_0.jpg" prev5url="img/lowRes/vehicles/corolla/interior360/dodge_o_preview_5.jpg" prev4url="img/lowRes/vehicles/corolla/interior360/dodge_o_preview_4.jpg" prev3url="img/lowRes/vehicles/corolla/interior360/dodge_o_preview_3.jpg" prev2url="img/lowRes/vehicles/corolla/interior360/dodge_o_preview_2.jpg" prev1url="img/lowRes/vehicles/corolla/interior360/dodge_o_preview_1.jpg" prev0url="img/lowRes/vehicles/corolla/interior360/dodge_o_preview_0.jpg" tile5url="img/lowRes/vehicles/corolla/interior360/dodge_o_5.jpg" tilesize="548" tile4url="img/lowRes/vehicles/corolla/interior360/dodge_o_4.jpg" tile3url="img/lowRes/vehicles/corolla/interior360/dodge_o_3.jpg" tilescale="1.018248175182482" tile2url="img/lowRes/vehicles/corolla/interior360/dodge_o_2.jpg" tile1url="img/lowRes/vehicles/corolla/interior360/dodge_o_1.jpg"/>';
+        panorama1+='  <control simulatemass="1" lockedmouse="0" lockedkeyboard="0" dblclickfullscreen="0" invertwheel="0" lockedwheel="0" invertcontrol="1" speedwheel="1" sensitivity="10"/>';
+        panorama1+='</panorama>';
+        panorama1+='';
+        panoBottom.readConfigString(panorama1);
+        function syncPanos()
+        {
+            try
+            {
+                if(flg==0)
+                {
+                    panoBottom.setPan(panoTop.getPan());
+                    panoBottom.setTilt(panoTop.getTilt());
+                    panoBottom.setFov(panoTop.getFov());
+                }
+                else
+                {
+                    panoTop.setPan(panoBottom.getPan())
+                    panoTop.setTilt(panoBottom.getTilt())
+                    panoTop.setFov(panoBottom.getFov())
+                }
+            } catch(e) {}
+        }
+        setInterval ( "syncPanos()", 10 );
+
+    }
+    else
+    if (navigator.userAgent.match(/MSIE\s(?!10.0)/)) {
+
+        if (swfobject.hasFlashPlayerVersion("9.0.0")) {
+
+            var params = {};
+            params.quality = "high";
+            params.bgcolor = "#ffffff";
+            params.allowscriptaccess = "always";
+            params.allowfullscreen = "true";
+            params.wmode = "transparent";
+
+            var flashvars = {};
+            // enable javascript interface
+            flashvars.externalinterface="1";
+            flashvars.skinxml="media/skin.xml";
+            flashvars.panoxml="media/halfCorolla.xml";
+            var attributes = {};
+            attributes.id = "pano_top";
+            attributes.name = "pano_top";
+            attributes.align = "middle";
+            swfobject.embedSWF(
+                    "top.swf", "containerTop",
+                    "1024", "384",
+                    "9.0.0", "expressInstall.swf",
+                    flashvars, params, attributes);
+
+            var flashvars2 = {};
+            // enable javascript interface
+            flashvars2.externalinterface="1";
+            flashvars2.skinxml="media/skin.xml";
+            flashvars2.panoxml="media/dodgeDart.xml";
+            var attributes2 = {};
+            attributes2.id = "pano_bottom";
+            attributes2.name = "pano_bottom";
+            attributes2.align = "middle";
+            swfobject.embedSWF(
+                    "bottom.swf", "containerBottom",
+                    "1024", "384",
+                    "9.0.0", "expressInstall.swf",
+                    flashvars2, params, attributes2);
+
+
+            // syncronize both panoramas
+            function syncPanos1()
+            {
+                try
+                {
+                    if(flg==0)
+                    {
+                        pano_bottom.setPan(pano_top.getPan());
+                        pano_bottom.setTilt(pano_top.getTilt());
+                        pano_bottom.setFov(pano_top.getFov());
+                    }
+                    else
+                    {
+                        pano_top.setPan(pano_bottom.getPan())
+                        pano_top.setTilt(pano_bottom.getTilt())
+                        pano_top.setFov(pano_bottom.getFov())
+                    }
+                } catch(e) {}
+            }
+
+
+            setInterval ( "syncPanos1()", 10 );
+            syncPanos1();
+
+
+        }
+    }
+
+    function clickContainer()
+    {
+        flg=0;
+    }
+
+    function clickContainer1()
+    {
+        flg=1;
+    }
+</script>
+<noscript>
+    <p><b>Please enable Javascript!</b></p>
+</noscript>

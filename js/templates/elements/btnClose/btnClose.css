@@ -1,0 +1,17 @@
+
+
+/*close button*/
+#btnCloseModal1 {
+    position: absolute;
+    z-index: 9999;
+    right: 10%;
+	top: 36px;
+}
+.btnClose{
+    background-position:-257px -177px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+/*close button*/

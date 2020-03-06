@@ -1,0 +1,108 @@
+{
+    "updates": [
+        {
+            "files": [
+                {
+                    "file": "data/json/chapter-0.json"
+                },
+                {
+                    "file": "data/json/chapter-1.json"
+                },
+                {
+                    "file": "css/responsive.css"
+                },
+                {
+                    "file": "css/style.css"
+                },
+                {
+                    "file": "css/tabit.css"
+                },
+                {
+                    "file": "img/neuro.png"
+                },
+                {
+                    "file": "img/gear.png"
+                },
+                {
+                    "file": "img/img1.png"
+                },
+                {
+                    "file": "img/img2.png"
+                },
+                {
+                    "file": "img/img3.png"
+                },
+                {
+                    "file": "img/img4.png"
+                },
+                {
+                    "file": "img/frontslider.png"
+                },
+                {
+                    "file": "img/istock.png"
+                },
+                {
+                    "file": "img/5.jpg"
+                },
+                {
+                    "file": "img/map.jpg"
+                },
+                {
+                    "file": "img/videoicon.png"
+                },
+                {
+                    "file": "config/framework.json"
+                },
+                {
+                    "file": "config/user.json"
+                },
+                {
+                    "file": "img/sub_bg.jpg"
+                },
+                {
+                    "file": "img/sub_bg_color.jpg"
+                },
+                {
+                    "file": "img/4.jpg"
+                },
+                {
+                    "file": "img/3.jpg"
+                },
+                {
+                    "file": "img/2.jpg"
+                },
+                {
+                    "file": "img/1.jpg"
+                },
+                {
+                    "file": "img/topview.jpg"
+                },
+                {
+                    "file": "img/aa.jpg"
+                },
+                {
+                    "file": "img/bb.jpg"
+                },
+                {
+                    "file": "img/cc.jpg"
+                },
+                {
+                    "file": "img/dd.jpg"
+                },
+                {
+                    "file": "img/amenities.jpg"
+                },
+                {
+                    "file": "img/hotspot-i.png"
+                },
+                {
+                    "file": "img/club_house.jpg"
+                },
+                {
+                    "file": "img/swimming_pool.jpg"
+                }
+            ],
+            "version": "1.33"
+        }
+    ]
+}

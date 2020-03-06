@@ -1,0 +1,8 @@
+<div class="CompetitionElement">
+   <h2><%=element.title%></h2>
+   <ul class="clearfix">
+       <% _.each(element.cars, function(car,index){ %>
+       <li class="car<%=car.id%>"><%=car.carName%></li>
+       <%});%>
+   </ul>
+</div>

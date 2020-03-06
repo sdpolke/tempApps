@@ -1,0 +1,14 @@
+<div class="col-md-12 resetPadding">
+<div class="hotspotImageXY">
+<img class="<%=element.class%>"  src='<%=element.image%>'>
+   	<% _.each(element.hotspots, function(hotspot){ %> 
+		<a href="<%=hotspot.href%>" class="btn btn-round btnSteps img-responsive hotspot-control <%=hotspot.class%>"
+			style="position: absolute; top:<%=hotspot.y%>;left:<%=hotspot.x%>; z-index: 9999" data-placement="top" title="<%=hotspot.tooltip%>">
+			<% var img = hotspot.clickImage?hotspot.clickImage:element.defaultClickImage,
+					imgClass = hotspot.imgClass || "";
+			%>
+			<img src='<%=img%>' class='<%=imgClass%>' />
+		</a> 	
+   	<%});%>
+</div>
+</div>

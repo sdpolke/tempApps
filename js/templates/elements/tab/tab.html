@@ -1,0 +1,23 @@
+<div class="tabElement clearfix">
+	<ul class="nav nav-tabs" id="myTab">
+		<li class="active"><a href="#home" data-toggle="tab"><%=element.contents[0].tabname%></a></li>
+		<li><a href="#profile" data-toggle="tab"><%=element.contents[1].tabname%></a></li>
+		<li><a href="#messages" data-toggle="tab"><%=element.contents[2].tabname%></a></li>
+		<li><a href="#settings" data-toggle="tab"><%=element.contents[3].tabname%></a></li>
+	</ul>
+
+	<div class="tab-content">
+		<div class="tab-pane active" id="Image"><div class="imageboxtab"><img src="img/swimming_pool.jpg"/></div></div>
+		<div class="tab-pane" id="Brief">
+		<div class="imageboxtab">
+			 <video controls preload="metadata" class="videosize" height="100%" >
+  				<source src="<%=element.videopath%>" type="video/mp4">
+			  </video>
+		</div>
+		</div>
+		<div class="tab-pane" id="Video"><div class="imageboxtab"><img src="img/club_house.jpg"/></div></div>
+		<div class="tab-pane" id="Tools"><div class="imageboxtab"><img src="img/club_house.jpg"/></div></div>
+	</div>
+</div>
+
+

@@ -1,0 +1,614 @@
+[
+    {
+        "id": 0,
+        "name": "Overview",
+        "status": "",
+        "page": [
+            {
+                "id": 0,
+                "name": "Brief",
+                "type": "page",
+                "enable": false,
+                "transition": "slideLeft",
+                "element": [
+                    {
+                        "type": "hotspotImage",
+                        "image": "img/landingpage.jpg",
+                        "cursor": "pointer",
+                        "preloader": 0
+                    }
+                ]
+            },
+            {
+                "id": 1,
+                "name": "Key Selling Points",
+                "type": "page",
+                "enable": false,
+                "transition": "slideLeft",
+                "element": [
+                    {
+                        "type": "title",
+                        "heading": "ReMeDi",
+                        "subheading": "Image Gallery",
+                        "color": "normal"
+                    },
+                    {
+                        "type": "imagebox",
+                        "imagegallery": [
+                            {
+                                "imagepath": "img/img1.png"
+                            },
+                            {
+                                "imagepath": "img/img2.png"
+                            },
+                            {
+                                "imagepath": "img/img3.png"
+                            },
+                            {
+                                "imagepath": "img/img4.png"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "Features",
+                "type": "page",
+                "enable": false,
+                "transition": "slideLeft",
+                "modelPage": [
+                    {
+                        "id": 0,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "info",
+                                "infocontents": [
+                                    {
+                                        "heading": "Contact Us",
+                                        "subheading": "WHO Headquarters in Geneva",
+                                        "description": "Avenue Appia 20<br>1211 Geneva <br>Telephone: +41-22-7912111"
+                                    },
+                                    {
+                                        "subheading": "To contact us through social media",
+                                        "description": "Twitter: https://twitter.com/who<br><br>Facebook: https://www.facebook.com/WHO"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "name": "Features",
+                "type": "page",
+                "enable": false,
+                "transition": "slideLeft",
+                "modelPage": [
+                    {
+                        "id": 0,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "info",
+                                "infocontents": [
+                                    {
+                                        "heading": "Location Map",
+                                        "description": "24K is a niche brand by Kolte-Patil Developers Ltd. It offers finest homes, extraordinary in terms of location, engineering, designing and amenities."
+                                    },
+                                    {
+                                        "description": "24K Glitterati has exclusive, river-facing homes starting from 2,000 sft going all the way up to 6,000 sft. 5 towers offer 3 and 4 bedroom super luxurious apartments, garden homes and 5 bedroom duplex penthouses with terrace deck, garden and a private pool."
+                                    },
+                                    {
+                                        "description": "With just 3 apartments per floor, all open from three sides, the only occasional invaders of privacy will be the winged ones. "
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "mapImage",
+                                "image": "img/map.jpg"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 4,
+                "name": "Features",
+                "type": "page",
+                "enable": false,
+                "transition": "slideLeft",
+                "modelPage": [
+                    {
+                        "id": 0,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "info",
+                                "infocontents": [
+                                    {
+                                        "heading": "Who we are",
+                                        "description": "WHO began when our Constitution came into force on 7 April 1948 – a date we now celebrate every year as World Health Day. We are now more than 7000 people from more than 150 countries working in 150 country offices, in 6 regional offices and at our headquarters in Geneva."
+                                    },
+                                    {
+                                        "heading": "What we do",
+                                        "description": "WHO works worldwide to promote health, keep the world safe, and serve the vulnerable.Our goal is to ensure that a billion more people have universal health coverage, to protect a billion more people from health emergencies, and provide a further billion people with better health and well-being"
+                                    },
+                                    {
+                                        "heading": "Where we work",
+                                        "description": "We support Member States as they coordinate the efforts of multiple sectors of the government and partners – including bi- and multilaterals, funds and foundations, civil society organizations and private sector – to attain their health objectives and support their national health policies and strategies."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 5,
+                "name": "ModalInfo",
+                "type": "page",
+                "enable": false,
+                "transition": "slideLeft",
+                "element": [
+                    {
+                        "type": "hotspotImage",
+                        "image": "img/landingpage.jpg",
+                        "cursor": "pointer",
+                        "preloader": 0
+                    }
+                ],
+                "modelPage": [
+                    {
+                        "id": 0,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "viewimagesize",
+                                "image": "img/5.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "Maestros, Wanowary, Pune..."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "viewimagesize",
+                                "image": "img/4.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "Pink City, Wakad, Pune..."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "viewimagesize",
+                                "image": "img/3.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "Lapis Lazuli, Koregaon Park, Pune..."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "viewimagesize",
+                                "image": "img/2.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "Hills & Dales, NIBM Road, Pune..."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "viewimagesize",
+                                "image": "img/1.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "Margosa, Dhole Patil Road, Pune..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 6,
+                "name": "ModalInfo",
+                "type": "page",
+                "enable": false,
+                "transition": "slideLeft",
+                "element": [
+                    {
+                        "type": "hotspotImage",
+                        "image": "img/topview.jpg",
+                        "cursor": "pointer",
+                        "preloader": 0,
+                        "hotspots": [
+                            {
+                                "id": "hotspot0",
+                                "href": "#chapter-1/section-0/page-6/modal-0",
+                                "class": "viewhotspot",
+                                "x": "66%",
+                                "y": "85%",
+                                "clickImage": "img/aa.jpg",
+                                "tooltip": "A - Building First Floor Plan"
+                            },
+                            {
+                                "id": "hotspot1",
+                                "href": "#chapter-1/section-0/page-6/modal-1",
+                                "class": "viewhotspot",
+                                "x": "48%",
+                                "y": "85%",
+                                "clickImage": "img/bb.jpg",
+                                "tooltip": "A - Building Even Floor Plan"
+                            },
+                            {
+                                "id": "hotspot2",
+                                "href": "#chapter-1/section-0/page-6/modal-2",
+                                "class": "viewhotspot",
+                                "x": "30%",
+                                "y": "85%",
+                                "clickImage": "img/cc.jpg",
+                                "tooltip": "B - Building First Floor Plan"
+                            },
+                            {
+                                "id": "hotspot3",
+                                "href": "#chapter-1/section-0/page-6/modal-3",
+                                "class": "viewhotspot",
+                                "x": "12%",
+                                "y": "85%",
+                                "clickImage": "img/dd.jpg",
+                                "tooltip": "B - Building Even Floor Plan"
+                            }
+                        ]
+                    }
+                ],
+                "modelPage": [
+                    {
+                        "id": 0,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "imagesize",
+                                "image": "img/aa.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "A - Building First Floor Plan..."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "imagesize",
+                                "image": "img/bb.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "A - Building Even Floor Plan..."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "imagesize",
+                                "image": "img/cc.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "B - Building First Floor Plan..."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "imagesize",
+                                "image": "img/dd.jpg"
+                            },
+                            {
+                                "type": "info",
+                                "class": "infotextalign",
+                                "infocontents": [
+                                    {
+                                        "description": "B - Building Even Floor Plan..."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 7,
+                "name": "ModalInfo",
+                "type": "page",
+                "enable": false,
+                "transition": "slideLeft",
+                "element": [
+                    {
+                        "type": "hotspotImage",
+                        "image": "img/pyramid.png",
+                        "cursor": "pointer",
+                        "className": "amenities",
+                        "defaultClickImage": "img/lowRes/rhot.png",
+                        "tooltipStateOpen": true,
+                        "preloader": 0,
+                        "hotspots": [
+                            {
+                                "id": "hotspot0",
+                                "href": "#chapter-1/section-0/page-7/modal-0",
+                                "class": "",
+                                "x": "45%",
+                                "y": "56%",
+                                "clickImage": "img/Transparent_flag3.png",
+                                "tooltip": ""
+                            },
+                            {
+                                "id": "hotspot1",
+                                "href": "#chapter-1/section-0/page-7/modal-1",
+                                "class": "",
+                                "x": "34%",
+                                "y": "56%",
+                                "clickImage": "img/Transparent_flag3.png",
+                                "tooltip": ""
+                            },
+                            {
+                                "id": "hotspot1",
+                                "href": "#chapter-1/section-0/page-7/modal-2",
+                                "class": "",
+                                "x": "56%",
+                                "y": "56%",
+                                "clickImage": "img/Transparent_flag3.png",
+                                "tooltip": ""
+                            },
+                            {
+                                "id": "hotspot1",
+                                "href": "#chapter-1/section-0/page-7/modal-2",
+                                "class": "",
+                                "x": "38%",
+                                "y": "80%",
+                                "clickImage": "img/Transparent_flag3.png",
+                                "tooltip": ""
+                            },
+                            {
+                                "id": "hotspot1",
+                                "href": "#chapter-1/section-0/page-7/modal-3",
+                                "class": "",
+                                "x": "50%",
+                                "y": "80%",
+                                "clickImage": "img/Transparent_flag3.png",
+                                "tooltip": ""
+                            }
+                        ]
+                    }
+                ],
+                "modelPage": [
+                    {
+                        "id": 0,
+                        "name": "FirstModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "info",
+                                "infocontents": [
+                                    {
+                                        "heading": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "mapImage who1",
+                                "image": "img/who2.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "name": "SecondModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "info",
+                                "infocontents": [
+                                    {
+                                        "heading": "",
+                                        "description": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "mapImage who1",
+                                "image": "img/who1.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "name": "thirdModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "info",
+                                "infocontents": [
+                                    {
+                                        "heading": "",
+                                        "description": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "mapImage who1",
+                                "image": "img/who3.png"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "name": "thirdModalView",
+                        "type": "model",
+                        "element": [
+                            {
+                                "type": "header"
+                            },
+                            {
+                                "type": "info",
+                                "infocontents": [
+                                    {
+                                        "heading": "",
+                                        "description": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "imagebox",
+                                "class": "mapImage who1",
+                                "image": "img/who4.png"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

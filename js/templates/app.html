@@ -1,0 +1,17 @@
+<!-- <div><a href="#chapter-0/section-0/page-1">Back</a></div> -->
+<div id="modalBox"></div>
+<% if (App.config.showTray && App.config.menuType === "leftTray") {
+		var userConfig = App.Models.user.get('trayConfig');
+%>
+	<div id="menuHandle" class="spriteIcon logotabit <%=userConfig.classname%>"><span class="NameNo"><%=userConfig.heading%></span></div>
+	<div id="leftTrayWrapper"></div>
+	<div id="trayOpaque"></div>
+<% } else if (App.config.showTray && App.config.menuType === "floating") { %>
+	<div id="floatingMenuWrapper"></div>
+<% } else { %>
+<% } %>
+ 
+<!-- <div id="navWrapper"></div> -->
+<!-- <div id="bottomProgressBar"></div> -->
+<div id="dummyWrapper"></div>
+<div id="mainWrapper"></div>

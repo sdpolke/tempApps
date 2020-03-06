@@ -1,0 +1,54 @@
+
+/*actionButton Element*/
+.actionBtnElement{
+  position: absolute;
+    top:617px;
+    right: 59px;
+  z-index: 9999;
+}
+.actionBtnElement a{
+    width: 150px;
+
+}
+.actionBtnElement a:hover{
+
+    text-decoration: none;
+}
+.actionBtnElement a .spriteTab {
+    background: url("../img/lowRes/spriteTab.png") 100% -37px no-repeat;
+    width: 150px;
+    height: 35px;
+    z-index: 1;
+    padding-right: 18px;
+}
+
+.actionBtnElement a .spriteTab div {
+    background: url("../img/lowRes/spriteTab.png") 0 0px no-repeat;
+    width: 100%;
+    height: 35px;
+    font-family: 'helveticaneueBold';
+    font-size: 15px;
+    color:#000000;
+    padding-top: 10px;
+    padding-left: 13px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.actionBtnElement a:hover .spriteTab {
+    background: url("../img/lowRes/spriteTab.png") 100% -110px no-repeat;
+
+}
+
+.actionBtnElement a:hover .spriteTab div {
+    background: url("../img/lowRes/spriteTab.png") 0 -74px no-repeat;
+
+
+}
+.actionBtnElement .sectionName{
+    font-family: 'helveticaneueBold';
+    font-size: 11px;
+    color:#ce2020;
+    padding-left: 8px;
+}
+/*actionButton Element*/

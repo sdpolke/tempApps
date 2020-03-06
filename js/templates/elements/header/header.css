@@ -1,0 +1,46 @@
+
+/*Model Header*/
+.btnClose{
+    background-position:-257px -177px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+}
+.btnCloseModal{
+    position: absolute;
+    right:41px;
+    top:39px;
+}
+.btnGroupHeader{
+    position: absolute;
+    left:96px;
+    top:36px;
+}
+.btnGroupHeader li{
+    display: inline-block;
+    margin-right:25px;
+    background-repeat: no-repeat;
+    width:51px;
+    height:52px;
+    cursor: pointer;
+}
+.btnBookmark{
+    background-position:-5px -4px;
+}
+.btnNote{
+    background-position:-56px -4px;
+}
+.btnBookmark.selected{
+    background-position:-5px -56px;
+}
+.btnNote.selected{
+    background-position:-56px -56px;
+}
+#btnCloseModal {
+    position: absolute;
+    z-index: 9999;
+    right: 10%;
+	top: 36px;
+}
+/*Model Header*/

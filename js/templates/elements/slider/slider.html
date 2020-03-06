@@ -1,0 +1,23 @@
+<div class="sliderElement" id="<%=element.id%>">
+    <div class="touchslider touchslider-demo">
+        <div class="touchslider-viewport" style="">
+            <div style="width:10000px">
+                <% _.each(element.Images, function(images,index){ %>
+                <div class="touchslider-item"><img src="img/spacer.gif"  alt="" class="<%=element.spotName%><%=images.id%>"></div>
+                <%});%>
+
+            </div>
+        </div>
+        <div class="touchslider-nav">
+            <% _.each(element.Images, function(images,index){ %>
+            <a class="touchslider-nav-item"></a>
+            <%});%>
+
+        </div>
+    </div>
+</div>
+<%if(element.id!='modelPage'){%>
+<div class="imageShadow">
+
+</div>
+<%}%>

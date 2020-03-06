@@ -1,0 +1,278 @@
+
+
+/*slider Element*/
+#normalPage{
+    width: 483px;
+    height: 321px;
+    border:1px solid #8a8a8a;
+    border-bottom: none;
+    position: absolute;
+    top: 211px;
+    left: 465px;
+}
+
+.imageShadow{
+    width: 484px;
+    height: 71px;
+    background: url("../img/lowRes/imageShadowBg.png") 0 0 no-repeat;
+    position: absolute;
+    top:533px;
+    left: 465px;
+}
+#normalPage .touchslider-nav-item{
+    background-image: url("../img/lowRes/sliderBullet.png");
+    background-position: -15px 0px;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+    z-index: 99999;
+}
+#normalPage .touchslider-nav-item-current{
+    background-position: 0px 0px;
+}
+#normalPage .touchslider-nav-item:first-child{
+    margin-left: 0px;
+}
+#normalPage .touchslider-nav{
+    top: -74px;
+    text-align: center;
+    position: relative;
+    z-index: 99999;
+
+}
+#normalPage .touchslider-viewport{
+    width: 483px;
+    overflow:hidden;
+    position:relative;
+    height: 321px;
+    overflow: hidden;
+}
+#normalPage .touchslider-item img{
+    background-repeat: no-repeat;
+    width: 483px;
+    height: 321px;
+}
+#normalPage .touchslider-item img.targetBuyer0{
+    background-image: url("../img/lowRes/sliderImg01.jpg");
+}
+#normalPage .touchslider-item img.targetBuyer1{
+    background-image: url("../img/lowRes/sliderImg02.jpg");
+}
+#normalPage .touchslider-item img.targetBuyer2{
+    background-image: url("../img/lowRes/sliderImg01.jpg");
+}
+#normalPage .touchslider-item img.targetBuyer3{
+    background-image: url("../img/lowRes/sliderImg02.jpg");
+}
+
+#normalPage .touchslider-viewport{
+    width: 1024px;
+    overflow:hidden;
+    position:relative;
+    height: 434px;
+}
+#modelPage .touchslider-nav-item{
+    background-image: url("../img/lowRes/sliderBullet2.png");
+    background-position: -12px 0px;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#modelPage .touchslider-nav-item:first-child{
+    margin-left: 0px;
+}
+
+#modelPage .touchslider-nav-item-current{
+    background-position: 0px 0px;
+}
+#modelPage .touchslider-nav{
+    background:rgba(0,0,0,0.75);
+    height: 21px;
+    padding-top: 11px;
+    text-align: center;
+    z-index: 9999;
+    position: relative;
+    top:400px ;
+    border-top:1px solid #2e2e2e ;
+    border-bottom:1px solid #2e2e2e ;
+}
+.ie8 .touchslider-nav{
+    background: url("../img/lowRes/modalBoxBg.png") 0px 0px repeat;
+}
+#modelPage .touchslider-item img, .imageboxElement.extModal12{
+    background-repeat: no-repeat;
+    width: 1024px;
+    height: 434px;
+}
+#modelPage .touchslider-item img.mirror0{
+    background-image: url("../img/1.jpg");
+	background-size:100% auto;
+ 
+}
+#modelPage .touchslider-item img.mirror1{
+	background-image: url("../img/3.jpg");
+	background-size:100% auto;    
+}
+#modelPage .touchslider-item img.mirror2{
+   background-image: url("../img/3.jpg");
+	background-size:100% auto;
+}
+#modelPage .touchslider-item img.mirror3{
+   background-image: url("../img/4.jpg");
+	background-size:100% auto;
+}
+#modelPage .touchslider-item img.headlight0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/headlight.jpg");
+}
+#modelPage .touchslider-item img.headlight1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/headlightA.jpg");
+}
+#modelPage .touchslider-item img.headlight2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/headlightB.jpg");
+}
+#modelPage .touchslider-item img.headlight3{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/headlightC.jpg");
+}
+#modelPage .touchslider-item img.engine0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/engine.jpg");
+}
+#modelPage .touchslider-item img.engine1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/engineA.jpg");
+}
+#modelPage .touchslider-item img.engine2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/engineB.jpg");
+}
+#modelPage .touchslider-item img.engine3{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/engineC.jpg");
+}
+#modelPage .touchslider-item img.engine4{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/engineD.jpg");
+}
+#modelPage .touchslider-item img.grille0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/grille.jpg");
+}
+#modelPage .touchslider-item img.grille1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/grilleA.jpg");
+}
+#modelPage .touchslider-item img.grille2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/grilleB.jpg");
+}
+#modelPage .touchslider-item img.grille3{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/grilleC.jpg");
+}
+#modelPage .touchslider-item img.trunk0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/trunk.jpg");
+}
+#modelPage .touchslider-item img.trunk1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/trunkA.jpg");
+}
+#modelPage .touchslider-item img.trunk2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/trunkB.jpg");
+}
+#modelPage .touchslider-item img.trunk3{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/trunkC.jpg");
+}
+#modelPage .touchslider-item img.taillight0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/taillight.jpg");
+}
+#modelPage .touchslider-item img.taillight1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/taillightA.jpg");
+}
+#modelPage .touchslider-item img.sideview0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/sideView.jpg");
+}
+#modelPage .touchslider-item img.sideview1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/sideViewA.jpg");
+}
+#modelPage .touchslider-item img.sideview2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/sideViewB.jpg");
+}
+#modelPage .touchslider-item img.wheel0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/wheel.jpg");
+}
+#modelPage .touchslider-item img.wheel1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/wheelA.jpg");
+}
+#modelPage .touchslider-item img.wheel2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/wheelB.jpg");
+}
+#modelPage .touchslider-item img.wheel3{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/wheelC.jpg");
+}
+#modelPage .touchslider-item img.door0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/doorHandle.jpg");
+}
+#modelPage .touchslider-item img.door1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/doorA.jpg");
+}
+#modelPage .touchslider-item img.door2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/doorB.jpg");
+}
+#modelPage .touchslider-item img.frontview0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/frontView.jpg");
+}
+#modelPage .touchslider-item img.frontview1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/frontViewA.jpg");
+}
+#modelPage .touchslider-item img.frontview2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/frontViewB.jpg");
+}
+#modelPage .touchslider-item img.frontview3{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/frontViewC.jpg");
+}
+#modelPage .touchslider-item img.rearview0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/rearView.jpg");
+}
+#modelPage .touchslider-item img.rearview1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/rearViewA.jpg");
+}
+#modelPage .touchslider-item img.rearview2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/rearViewB.jpg");
+}
+#modelPage .touchslider-item img.rearview3{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/rearViewC.jpg");
+}
+#modelPage .touchslider-item img.angularrear0{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/angularRear.jpg");
+}
+#modelPage .touchslider-item img.angularrear1{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/angularRearA.jpg");
+}
+#modelPage .touchslider-item img.angularrear2{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/angularRearB.jpg");
+}
+#modelPage .touchslider-item img.angularrear3{
+    background-image: url("../img/lowRes/vehicles/corolla/exterior360/modalBox/angularRearC.jpg");
+}
+.imageboxElement.extModal12{
+    background-image:url("../img/lowRes/vehicles/corolla/exterior360/modalBox/angularFront.jpg");
+}
+
+
+
+
+.sellingOverviewImg{
+    position: absolute;
+    top:85px;
+    right: 0px;
+    z-index: 9;
+    width:647px;
+    height: 625px;
+    background:url("../img/lowRes/vehicles/corolla/sellingOverview.png")0 0 no-repeat ;
+}
+.custInfoImg{
+    position: absolute;
+    top:85px;
+    right: 0;
+    z-index: 9;
+    width:611px;
+    height: 624px;
+    background:url("../img/lowRes/vehicles/corolla/customerInformation.jpg") 10px 0 no-repeat;
+}
+
+
+/*slider Element*/

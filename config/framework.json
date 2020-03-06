@@ -1,0 +1,39 @@
+{
+    "globalConst": {
+        "DATA_URL": "data/json/chapter-",
+        "DATA_FILE_TYPE": ".json",
+        "ELEMENT_URL": "templates/elements/",
+        "ANALYTICS_ENGINE_FILE_PREFIX": "ae_"
+    },
+    "config": {
+        "animateTray": true,
+        "showTray": true,
+        "menuType": "floating",
+        "animatePages": false,
+        "updatePageTitles": false,
+        "firstPage": {
+            "chapter": 1,
+            "section": 0,
+            "page": 0,
+            "modal": -1
+        },
+        "bookmarksEnabled": false,
+        "notesEnabled": false,
+        "floatingMenu": {
+            "backgroundBubles": 7,
+            "bgbblMinSize": 10,
+            "radius": 100,
+            "animationSpeed": "fast"
+        },
+        "analytics": {
+            "enabled": false,
+            "key": "UDID",
+            "engine": "google",
+            "userid": "byl9l4yQxRyIppRUg94",
+            "pwd": "YWLrNmq7FzgYFYM5n3U",
+            "trackerId": "UA-51407965-1",
+            "makeURL": "file://OfflineApp/Baseline/",
+            "localStorageId": "tabitAEData"
+        }
+    }
+}

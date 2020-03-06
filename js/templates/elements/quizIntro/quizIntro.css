@@ -1,0 +1,52 @@
+
+
+/*quiz intro*/
+.quizIntroElement{
+    position: absolute;
+}
+.quizIntroElement .leftInfo{
+    width:332px;
+}
+.quizIntroElement .leftInfo .heading{
+    font-size: 24px;
+    color: #3a3a3a;
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    padding-bottom: 12px;
+    padding-left: 4px;
+    border-bottom: 1px solid #b0b0b0;
+    margin-bottom: 20px;
+    line-height: 30px;
+}
+.quizIntroElement .leftInfo ul{
+    position: absolute;
+    margin-left: 60px;
+}
+.quizIntroElement .leftInfo ul li{
+    font-size: 18px;
+    color:#5d5d5d;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.quizIntroElement .leftInfo ul li span{
+    margin-left: -60px;
+    margin-right: 15px;
+    display: inline-block;
+    width:60px;
+    height:60px;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 60px;
+    font-family: 'helveticaneueBold' !important;
+}
+.quizIntroElement .leftInfo ul li span.quizIntro{
+    font-size: 40px;
+}
+.quizIntroElement .leftInfo ul li span.quizIntro1{
+    font-size: 22px;
+    background: url("../img/lowRes/timer.png") 0 0 no-repeat;
+}
+.quizIntroElement .leftInfo ul li span.quizIntro2{
+    background: url("../img/lowRes/multipleChoice.png") center no-repeat;
+}
+/*quiz intro*/

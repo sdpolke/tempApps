@@ -1,0 +1,55 @@
+
+/*header button group*/
+.headerBtnGrp{
+    position: absolute;
+    z-index: 99;
+}
+
+.headerBtnGrp li{
+    width:31px;
+    height:31px;
+    cursor:pointer;
+    float:left;
+    margin-right:8px;
+}
+
+.headerBtnGrp li{
+    background: url("../img/lowRes/spriteHeaderBtnGrp.png") 0 0 no-repeat;
+}
+.headerBtnGrp .btnBookmark{
+    background-position: 0 0 !important;
+}
+.headerBtnGrp .btnNote{
+    background-position: -31px 0 !important;
+}
+.headerBtnGrp .btnAudio{
+    background-position: -62px 0;
+}
+.headerBtnGrp .btnBookmark.selected{
+    background-position: 0 -31px !important;
+}
+.headerBtnGrp .btnNote.selected{
+    background-position: -31px -31px !important;
+}
+.headerBtnGrp .btnAudio.active{
+    background-position: -62px -31px;
+}
+.jp-controls{
+    position: absolute;
+    z-index: 99;
+}
+.jp-controls li a{
+    background: url("../img/lowRes/spriteHeaderBtnGrp.png") 0 0 no-repeat;
+    width:31px;
+    height:31px;
+    cursor:pointer;
+    display: block;
+    text-indent: -9999px;
+}
+.jp-controls li a.jp-play{
+    background-position: -62px 0 !important;
+}
+.jp-controls li a.jp-pause{
+    background-position: -62px -31px !important;
+}
+/*header button group*/

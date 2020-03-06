@@ -1,0 +1,28 @@
+[
+    {
+        "id": 0,
+        "name": "Home",
+        "status": "",
+        "page": [
+            {
+                "id": 0,
+                "name": "Index",
+                "type": "page",
+                "enable": false,
+                "transition": "slideUp",
+                "element": [
+                    {
+                        "type": "landing",
+                        "name": "Start",
+                        "heading": "ReMeDi",
+                        "imgpath": "img/neuro.png",
+                        "content": "Making Healthcare Affordable, Accessible and Equitableitable",
+                        "companyname": "e-Zest Solution",
+                        "lorem": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+                        "action": "chapter-1/section-0/page-0"
+                    }
+                ]
+            }
+        ]
+    }
+]

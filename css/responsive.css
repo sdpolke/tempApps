@@ -1,0 +1,607 @@
+/* 100% CSS CLASS Start */
+/* .container, #mainWrapper
+		{
+		width: 100% !important;
+		} */
+/* 100% CSS CLASS END */
+@media ( min-width : 1200px) {
+	
+	.resetPadding{ padding: 0px !important;}
+	
+	.image {
+		width: 100% !important;
+	}
+	
+	.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+	}
+	
+	.container{
+		max-width: 1024px !important;
+	}
+	
+	
+}
+
+@media ( min-width : 992px) {
+	.resetPadding{ padding: 0px !important;}
+	.container {
+		max-width: 100% !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.overViewElement .leftInfo {
+		width: 100%;
+	}
+	.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+	}
+	
+	.container {
+		width: 1024px !important;
+	}
+	
+
+}
+
+/* IPAD START */
+@media ( min-width : 768px) and (max-width: 979px) {
+	.resetPadding{ padding: 0px !important;}
+	
+	#pageWrapper,#mainWrapper {
+		width: 100%;
+		overflow-y:auto;
+		height: 100%;
+		position: absolute;
+	}
+	.container {
+		width: 100% !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+		.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+	}
+	
+	.image {
+    width: 100% !important;
+	}
+	
+	.tabElement {
+		left: 20px;
+	}
+	
+	
+	.tabContent {
+		width: 70%;
+	}
+	
+	.infoElement {
+		top: 15%;
+    }
+  
+	
+}
+/* IPAD END */
+
+/* IPAD LANDSCAPE START */
+@media ( max-width : 768px) {
+	.resetPadding{ padding: 0px !important;}
+	.overViewElement .leftInfo {
+		width: 99%;
+	}
+	.overviewImage {
+		background-size: 47% 86%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.overviewImage {
+		height: 250px;
+	}
+	#pageWrapper,#mainWrapper {
+		width: 100% !important;
+	}
+	.container {
+		width: 100% !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+	}
+}
+/* IPAD LANDSCAPE END */
+/* MOBILE LANDSCAPE START  */
+@media ( min-width : 640px) and (max-width: 645px) {
+	/*-------RK CSS Code-------------*/
+	.infoElement {
+	    left: 0;
+	    width: 98%;
+    }
+	.padngleft{
+	    padding-left:5px !important;
+	}
+	.infoElement .infoimgdiv{
+	    width:168px;
+	    margin-left:8px;
+	} 
+	.infoElement .infodescdiv{
+	    overflow-y:scroll;
+	}
+	
+	.overViewElement{
+		padding: 0;
+	}
+	
+	.titleElement {
+    	padding: 30px 30px 10px 25px;
+	}
+	
+	.tabElement {
+    	left: 25px;
+    	top:150px;
+    }	
+    
+    .tabContent {
+    	width: 60%;
+	}
+	/*-------RK CSS Code ends-------------*/
+	#pageWrapper,#mainWrapper {
+		width: 100%;
+		overflow-y:auto;
+		height: 100%;
+		position: absolute;
+	}
+
+}
+
+
+
+@media ( max-width : 568px) {
+
+	.resetPadding{ padding: 0px !important;}
+	.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+	}
+	#pageWrapper {
+		overflow-x:none; 
+	}
+
+		/*---------------------Neuro css start------------------------ */	
+	.logoremedi {
+    	height: 120px;
+    	width: 80px;
+	}
+		
+	.homepageWelcomeText {
+		padding-top: 10px;
+	}
+	
+	.overViewElement {
+    	padding: 0;
+	}
+	
+	
+	#pageWrapper,#mainWrapper {
+		width: 100%;
+		overflow-y:auto;
+		height: 100%;
+		position: absolute;
+	}	
+	
+	.titleElement {
+		left: 10px;
+		top: 0;
+		padding: 0px 30px 10px 24px;
+	}
+	
+	 #modelPage, .imageboxElement {
+    	height: 150px;
+    	top: 40%;
+    	
+    }
+    
+    
+    .tabElement {
+    	left: 35px;
+    	top: 100px;
+    }
+    
+    .tabContent {
+    	padding-left: 10px;
+    	width: 52%;
+    	padding-bottom: 20px;
+	}	
+	
+	
+	/*-------RK CSS Code-------------*/
+	.infoElement {
+        left: 0;
+	    width: 100%;
+	    padding-bottom: 20px;
+	}
+	.padngleft{
+	    padding-left:0px !important;
+	}
+	.infoElement .infoimgdiv{
+	    width:130px;
+	    margin-left:0px;
+	} 
+	.infoElement .infodescdiv{
+	    overflow-y:scroll;
+	}
+	/*-------RK CSS Code ends-------------*/
+	
+	.titleElement h2 {
+    	line-height: 0;
+	}
+/*---------------------Neuro css end------------------------ */	
+}
+@media ( min-width : 480px) and (max-width: 481px) {
+	
+	.resetPadding{ padding: 0px !important;}
+	#pageWrapper {
+		/* height: 320px !important; */
+	}
+	.container {
+		width: 100% !important;
+	}
+	.image {
+		width: 100% !important;
+	}
+	.container {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+	
+	#pageWrapper,#mainWrapper {
+		width: 100%;
+		overflow-y:auto;
+		height: 100%;
+		position: absolute;
+	}
+	.titleElement h1 {
+		font-size: 23px;
+		line-height: 21px;
+	}
+	.titleElement {
+		left: 10px;
+		top: 0;
+		padding: 0px 30px 10px 24px;
+	}
+	.landingElement {
+		left: 0;
+		top: 20%;
+	}
+	.landingPage h1 {
+		font-size: 26px;
+		font-weight: bold;
+	}
+	
+	
+/*---------------------Neuro css start------------------------ */	
+	.logoremedi {
+    	height: 120px;
+    	width: 80px;
+	}
+		
+	.homepageWelcomeText {
+		padding-top: 10px;
+	}
+	
+	.overViewElement {
+    	padding: 0;
+	}	
+	
+/*---------------------Neuro css end------------------------ */	
+
+	/*-------RK CSS Code-------------*/
+	.infoElement {
+        left: 0;
+	    width: 100%;
+	    padding-bottom: 20px;
+	}
+	.padngleft{
+	    padding-left:0px !important;
+	}
+	.infoElement .infoimgdiv{
+	    width:130px;
+	    margin-left:0px;
+	} 
+	.infoElement .infodescdiv{
+	    overflow-y:scroll;
+	}
+	/*-------RK CSS Code ends-------------*/
+
+}
+
+
+
+/* portrait mobile */
+@media ( min-width : 360px) and (max-width: 361px) {
+	
+	
+	#pageWrapper,#mainWrapper {
+		width: 100%;
+		overflow-y:auto;
+		height: 100%;
+		position: absolute;
+	}
+	
+	
+	/*-----------------tab responsive start----------------------------- */
+	
+	
+	
+	
+	.tabElement {
+    	left: 4px;
+    	top: 135px;
+    	padding-bottom: 50px;
+    	width: 100%;
+	}
+	
+	
+	.tabElement ul li, .tabElement ul li:focus {
+    	font-size: 11px;
+    	height: 30px;
+    	line-height: 28px;
+    	padding-left: 9px;
+   		width: 118px;
+	}
+	
+	.tabElement .spriteTab {
+	    width: 120px;
+	}		
+	
+	.tabElement ul {
+	    margin-right: 5px;
+	}
+	
+	.tabContent {
+	    padding-left: 10px;
+	    width: 55%;
+	}
+	
+	.tabPane h1 {
+    	font-size: 19px;
+    }
+	
+	.titleElement {
+		padding: 30px 0 10px 20px;
+		margin: 0;
+	}
+	.overViewElement {
+		left: 1%;
+		top: 15%;
+		margin: 0;
+		padding: 0;
+	}
+	.titleElement h1 {
+		font-size: 23px;
+		line-height: 21px;
+	}
+	
+	.homepageWelcomeText {
+		margin: 19% auto;
+		padding-top: 40px;
+		width: 260px;
+	}
+	
+	
+	.leftInfo h4 {
+    	font-size: 13px;
+    }
+    
+    .overViewElement .leftInfo .description p {
+    	font-size: 12px;
+    }
+    
+    
+     #modelPage, .imageboxElement {
+    	height: 150px;
+    	top: 30%;
+    }
+	/*-----------------tab responsive end----------------------------- */
+		.leftside{
+	    width:100% !important;
+	}
+	.rightside{
+	    width:100% !important;
+	}
+	/* .rightside {
+    margin-left: 10px;
+    }*/
+    
+	/*-------RK CSS Code ends-------------*/
+	.infoElement .infoimgdiv{
+	     margin-left:40px;
+	     padding-bottom: 20px;
+	}
+	.infoElement .infodescdiv {
+    	overflow-y: scroll;
+    }
+	
+}
+
+
+
+@media ( min-width : 320px) and (max-width: 325px) {
+	.resetPadding{ padding: 0px !important;}
+	.row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+	}
+	#mainWrapper .landingHomePage {
+		height: 480px !important;
+		overflow-x: hidden !important;
+	}
+	.container {
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+	.span12,.row-fluid .span12 {
+		-moz-box-sizing: border-box;
+		width: 94%;
+	}
+	.homepageWelcomeText {
+		margin: 19% auto;
+		padding-top: 40px;
+		width: 260px;
+	}
+	.landingElement {
+		margin: 0 auto;
+		padding: 0 10px;
+		width: 288px;
+		z-index: 1;
+	}
+	.landingPage h1 {
+		font-size: 26px;
+		font-weight: bold;
+	}
+	.landingPage a {
+		font-size: 20px;
+		line-height: 25px;
+		font-weight: bold;
+	}
+	
+	#pageWrapper,#mainWrapper {
+		width: 100%;
+		overflow-y:auto;
+		height: 100%;
+		position: absolute;
+	}
+	.container {
+		width: 100% !important;
+	}
+	.image {
+		width: 100% !important;
+	}
+	.landingElement {
+		padding-bottom: 30px;
+		padding-left: 10px;
+		position: absolute;
+		width: 310px;
+		z-index: 1;
+	}
+	.landingElement {
+		left: 0;
+		top: 20%;
+	}
+	.beginLink,.beginLink:link,.beginLink:visited,.beginLink:active {
+		left: 1%;
+		top: 45%;
+	}
+	.titleElement {
+		padding: 30px 0 10px 20px;
+		margin: 0;
+	}
+	.overViewElement {
+		left: 1%;
+		top: 15%;
+		margin: 0;
+		padding: 0;
+	}
+	.titleElement h1 {
+		font-size: 23px;
+		line-height: 21px;
+	}
+	
+	.overviewImage {
+		background-image: url("../img/lowRes/image.png");
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		height: 250px;
+		width: 100%;
+		z-index: 99;
+	}
+	
+	
+	
+	/*-----------------tab responsive start----------------------------- */
+	
+	.tabElement {
+    	left: 4px;
+    	top: 135px;
+    	padding-bottom: 50px;
+	}
+	
+	
+	.tabElement ul li, .tabElement ul li:focus {
+    	font-size: 11px;
+    	height: 30px;
+    	line-height: 28px;
+    	padding-left: 9px;
+   		width: 118px;
+	}
+	
+	.tabElement .spriteTab {
+	    width: 120px;
+	}		
+	
+	.tabElement ul {
+	    margin-right: 5px;
+	}
+	
+	.tabContent {
+	    padding-left: 10px;
+	    width: 55%;
+	}
+	
+	.tabPane h1 {
+    	font-size: 19px;
+    }
+	
+	
+	.leftInfo h4 {
+    	font-size: 13px;
+    }
+    
+    .overViewElement .leftInfo .description p {
+    	font-size: 12px;
+    }
+    
+    #modelPage, .imageboxElement {
+    	height: 150px;
+    	top: 36%;
+    }	
+    
+    .infoElement {
+    	top: 20%;
+    }	
+	
+	/*-----------------tab responsive end----------------------------- */
+	/*-------RK CSS Code-------------*/
+	.leftside{
+	    width:100% !important;
+	}
+	.rightside{
+	    width:100% !important;
+	    margin-left:6px;
+	}
+	.infoElement .infodescdiv {
+    overflow-y: scroll;
+    }
+    .infoElement .infoimgdiv {
+        margin-left: 68px;
+    }
+	/*-------RK CSS Code ends-------------*/
+}
+/*  portrait mobile END */
+@media ( min-width : 1200px) {
+}
+
+@media ( min-width : 1200px) {
+}
+
+@media ( max-width : 979px) {
+}
+
+@media ( min-width : 980px) {
+}

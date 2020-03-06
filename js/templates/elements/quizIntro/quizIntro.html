@@ -1,0 +1,11 @@
+<div class="quizIntroElement">
+    <div class="leftInfo">
+        <div class="heading"><%=element.heading%></div>
+        <ul>
+            <% _.each(element.quizInfo, function(quiz,index){ %>
+                <li><span class="<%=quiz.className%>"><%=quiz.symbol%></span><%=quiz.infoDesc%></li>
+            <%});%>
+        </ul>
+    </div>
+    <div class="<%=element.imgClass%>"></div>
+</div>

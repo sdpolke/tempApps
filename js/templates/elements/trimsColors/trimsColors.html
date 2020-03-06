@@ -1,0 +1,46 @@
+<div class="trimsColors">
+
+
+    <% _.each(element.model, function(model,index){ %>
+     <div class="modelImg model<%=model.name%>">
+    <% _.each(model.vehicles, function(vehicleimg,index){ %>
+    <figure class="vehicleTrimsColors <%=vehicleimg.vehicle%>"></figure>
+    <%});%>
+     </div>
+    <%});%>
+
+<div class="modelSelect clearfix">
+    <div class="modelSelectorWrap">
+    <ul class="btnModelSelector">
+        <% _.each(element.model, function(modelName,index){ %>
+        <li modelname=".model<%=modelName.name%>" class="spriteIcon <%=modelName.name%>"><%=modelName.name%></li>
+        <%});%>
+    </ul>
+    </div>
+    <h2>Features</h2>
+    <% _.each(element.model, function(model,index){ %>
+    <div class="bullet model<%=model.name%>">
+       <ul class="clearfix">
+            <% _.each(model.bullet, function(bullet,index){ %>
+            <li><%=bullet.description%></li>
+            <%});%>
+        </ul>
+    </div>
+    <%});%>
+</div>
+    <% _.each(element.model, function(model,index){ %>
+    <div class="vehicleColor model<%=model.name%> clearfix">
+        <div class="vehicleColorWrap">
+        <span class="colorName">Nautical Blue Metallic</span>
+        <ul class="btnVehicleColor clearfix">
+            <% _.each(model.vehicles, function(vehiclecolor,index){ %>
+                <li class="<%=vehiclecolor.color%>" vehicle=".<%=vehiclecolor.vehicle%>" colorname="<%=vehiclecolor.colorname%>"><span></span></li>
+            <%});%>
+        </ul>
+        </div>
+    </div>
+    <%});%>
+</div>
+
+
+

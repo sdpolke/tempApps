@@ -1,0 +1,35 @@
+<%
+   var navCount = data.length;
+   var navWidth = 100/navCount;
+
+
+%>
+<ul class="clearfix" id="navProgess" style="margin-left:<%=navWidth/2%>%">
+
+    <%
+
+    _.each(data, function(item,index){
+
+    %>
+
+
+
+  <li id="section<%=item.id%>" style="width:<%=navWidth%>%" class="<%=item.status%>">
+        <div class="iconBox">
+            <div class="badge" data-action="section-<%=item.id%>"><i class="icon"></i></div>
+            <div class="iconHeading"><%=item.get('name')%></div>
+        </div>
+      <% if(index!=(navCount-1)){ %>
+            <ul class="redBar clearfix">
+                <%
+                var barCount = item.pages.length;
+                var barWidth = 100/barCount;
+                _.each(item.pages.toJSON(), function(page,index){
+                %>
+                <li style="width:<%=barWidth%>%" class="<%if(page.enable==true){%>red<%}%>"></li>
+                <%  }); %>
+            </ul>
+      <% } %>
+    </li>
+    <%  }); %>
+</ul>

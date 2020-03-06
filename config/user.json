@@ -1,0 +1,180 @@
+{
+	"id": 1,
+	"name": "test",
+	"email": "test@gmail.com",
+	"spinId": "06b8ced8-a34b-408c-a3ac-cd5276d83884",
+	"chapterCount": 2,
+	"bookmarksConfig": {
+		"title": "Bookmarks",
+		"prefix": "tabit-bookmark-",
+		"info": "Pick up where you left off",
+		"bookmarks": [
+			{
+				"id": 1,
+				"title": "1st Bookmark",
+				"text": "Hello team",
+				"action": "chapter-0/section-0/page-0"
+			},
+			{
+				"id": 2,
+				"title": "2nd Bookmark",
+				"text": "Hello all",
+				"action": "chapter-2/section-0/page-1"
+			},
+			{
+				"id": 3,
+				"title": "3rd Bookmark",
+				"text": "Hello",
+				"action": "chapter-1/section-0/page-2"
+			}
+		]
+	},
+	"notesConfig": {
+		"title": "Notes",
+		"prefix": "tabit-note-",
+		"info": "Write it down, keep it for later",
+		"notes": [
+			{
+				"id": 1,
+				"title": "1st Note",
+				"text": "Hello team",
+				"date": "2009-06-29",
+				"action": "chapter-2/section-0/page-2"
+			},
+			{
+				"id": 2,
+				"title": "2nd Note",
+				"text": "Hello all",
+				"date": "2010-02-15",
+				"action": "chapter-1/section-0/page-2"
+			},
+			{
+				"id": 3,
+				"title": "3rd Note",
+				"text": "Hello",
+				"date": "2011-09-02",
+				"action": "chapter-1/section-0/page-2"
+			}
+		]
+	},
+	"trayConfig": {
+		"heading": "WHO",
+		"subheading": "Ver:2.0",
+		"tagline": "Ver:2.0",
+		"classname": "menukp"
+	},
+	"menuItems": [
+		{
+			"id": 0,
+			"chapter": 0,
+			"section": 0,
+			"page": 0,
+			"enable": true,
+			"title": "Landing",
+			"action": "chapter-0/section-0/page-0",
+			"rank": "0"
+		},
+		{
+			"id": 1,
+			"chapter": 1,
+			"section": 0,
+			"page": 1,
+			"enable": true,
+			"title": "Home",
+			"action": "chapter-1/section-0/page-5",
+			"rank": "0",
+			"classname": ""
+		},
+		{
+			"id": 2,
+			"chapter": 1,
+			"section": 0,
+			"page": 0,
+			"enable": true,
+			"title": "The Impact Framework",
+			"action": "chapter-1/section-0/page-7",
+			"rank": "0",
+			"classname": ""
+		},
+		{
+			"id": 4,
+			"chapter": 1,
+			"section": 0,
+			"page": 3,
+			"enable": true,
+			"title": "About",
+			"action": "chapter-1/section-0/page-4/modal-0",
+			"rank": "0",
+			"classname": ""
+		},
+		{
+			"id": 6,
+			"chapter": 1,
+			"section": 0,
+			"page": 5,
+			"enable": true,
+			"title": "Contact",
+			"action": "chapter-1/section-0/page-2/modal-0",
+			"rank": "0",
+			"classname": ""
+		}
+	],
+	"routes": {
+		"home": [
+			"chapter",
+			2,
+			"section",
+			0,
+			"page",
+			0,
+			"modal",
+			-1,
+			true
+		],
+		"about": [
+			"chapter",
+			2,
+			"section",
+			0,
+			"page",
+			0,
+			"modal",
+			-1,
+			true
+		]
+	},
+	"appElementsList": [
+		"landing",
+		"home",
+		"headerBtnGroup",
+		"overview",
+		"video",
+		"quizIntro",
+		"title",
+		"boxNav",
+		"backgroundImage",
+		"summary",
+		"competition",
+		"interiorComparison",
+		"titleButton",
+		"trimsColors",
+		"actionBtn",
+		"imagebox",
+		"tab",
+		"info",
+		"reel360",
+		"interior360",
+		"header",
+		"slider",
+		"footerTray",
+		"btnClose",
+		"hondaCivic",
+		"dodgeDart",
+		"fordFocus",
+		"nissanSentra",
+		"volkswagenJetta",
+		"hyundaiElantra",
+		"chevroletCruze",
+		"hotspotImage"
+	]
+}

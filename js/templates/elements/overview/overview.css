@@ -1,0 +1,206 @@
+/*OverViewElement*/
+
+.overViewElement .leftInfo{
+    width:332px;
+
+}
+.overViewElement .leftInfo h2{
+    font-size: 16px;
+    color: #ce2020;
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    border-bottom: 1px solid #b0b0b0;
+    margin-bottom: 11px;
+}
+
+.overViewElement .leftInfo .bullet ul{
+    list-style: disc;
+    border-bottom: 1px solid #b0b0b0;
+}
+.overViewElement .leftInfo .bullet ul li h3{
+    font-weight: normal;
+    font-family: 'helveticaneueBold';
+    font-size: 13px;
+    line-height: 22px;
+    color: #197dbc;
+}
+.overViewElement .leftInfo .bullet ul li{
+    margin-bottom: 20px;
+    padding-left: 4px;
+    list-style: none outside none;
+}
+.overViewElement .leftInfo .bullet ul li .bulletDescription{
+    font-family: 'helveticaneueRoman';
+    font-size: 11px;
+    line-height: 17px;
+    color: #464646;
+}
+.overviewImage{
+    background-image: url("../img/lowRes/image.png");
+    background-repeat: no-repeat;
+    width: 529px;
+    height: 347px;
+   /*  position: absolute; */
+    z-index: 99;
+    right: -31px;
+    top:243px;
+    background-size: 60% 85%;
+}
+.newCorolla{
+    background-image: url("../img/newCorolla.jpg");
+    background-repeat: no-repeat;
+    width: 585px;
+    height: 304px;
+    position: absolute;
+    z-index: 99;
+    right: 16px;
+    top:270px;
+}
+.KeyCompetitors{
+    background-image: url("../img/lowRes/vehicles/corolla/KeyCompetitors.jpg");
+    background-repeat: no-repeat;
+    width: 518px;
+    height: 283px;
+    position: absolute;
+    z-index: 99;
+    right: 60px;
+    top:232px;
+}
+.overviewCruze{
+    background-image: url("../img/lowRes/vehicles/corolla/overviewCruze.jpg");
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 317px;
+    position: absolute;
+    z-index: 99;
+    right: 60px;
+    top:238px;
+}
+.overviewDart{
+    background-image: url("../img/lowRes/vehicles/corolla/overviewDart.jpg");
+    background-repeat: no-repeat;
+    width: 530px;
+    height: 317px;
+    position: absolute;
+    z-index: 99;
+    right: 25px;
+    top:245px;
+}
+
+.overviewFord{
+    background-image: url("../img/lowRes/vehicles/corolla/overviewFord.jpg");
+    background-repeat: no-repeat;
+    width: 464px;
+    height: 324px;
+    position: absolute;
+    z-index: 99;
+    right: 85px;
+    top:224px;
+}
+.overviewHonda{
+    background-image: url("../img/lowRes/vehicles/corolla/overviewHonda.jpg");
+    background-repeat: no-repeat;
+    width: 539px;
+    height: 282px;
+    position: absolute;
+    z-index: 99;
+    right: 60px;
+    top:257px;
+}
+.overviewHyundai{
+    background-image: url("../img/lowRes/vehicles/corolla/overviewHyundai.jpg");
+    background-repeat: no-repeat;
+    width: 495px;
+    height: 314px;
+    position: absolute;
+    z-index: 99;
+    right: 85px;
+    top:235px;
+}
+.overviewNissan{
+    background-image: url("../img/lowRes/vehicles/corolla/overviewNissan.jpg");
+    background-repeat: no-repeat;
+    width: 475px;
+    height: 308px;
+    position: absolute;
+    z-index: 99;
+    right: 83px;
+    top:235px;
+}
+.overviewVolkswagen{
+    background-image: url("../img/lowRes/vehicles/corolla/overviewVolkswagen.jpg");
+    background-repeat: no-repeat;
+    width: 484px;
+    height: 315px;
+    position: absolute;
+    z-index: 99;
+    right: 83px;
+    top:225px;
+}
+
+.chapter2-section0-page0 .overViewElement .leftInfo .description, .chapter2-section0-page0 .overViewElement .leftInfo .bullet ul,
+.chapter2-section0-page1 .overViewElement .leftInfo .description, .chapter2-section1-page0 .overViewElement .leftInfo .description,
+.chapter2-section1-page0 .overViewElement .leftInfo .bullet ul{
+    border-bottom: 0px;
+}
+
+
+.chapter3-section0-page2 .leftInfo,.chapter3-section0-page3 .leftInfo,.chapter3-section0-page4 .leftInfo{
+    width: 275px;
+}
+.chapter3-section0-page0 .overViewElement .leftInfo .description, .chapter3-section0-page1 .overViewElement .leftInfo .description, .chapter3-section0-page2 .overViewElement .leftInfo .description, .chapter3-section0-page3 .overViewElement .leftInfo .description,.chapter3-section0-page4 .overViewElement .leftInfo .description{
+    border-bottom: none;
+}
+
+
+
+
+
+
+/*OverViewElement*/
+
+
+
+
+
+
+
+.leftInfo h4{
+	color:red;
+	font-size:18px;
+	font-weight:normal;
+}
+
+	.overViewElement .leftInfo {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+
+.overViewElement{
+	padding:0 30px;
+}
+
+.titleElement {
+	padding:30px 30px 10px 28px;
+}
+
+.overViewElement .leftInfo .description p{
+    font-size: 15px;
+    line-height: 17px;
+    color:#464646;
+    padding-left: 4px;
+    font-family: 'helveticaneueRoman';
+    padding-top:20px;
+	width:80%;
+}
+
+.main-container{
+	max-width:100% !important;
+	background-color:#fff !important;
+	max-height:100% !important;
+}
+
+

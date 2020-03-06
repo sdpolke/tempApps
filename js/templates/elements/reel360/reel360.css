@@ -1,0 +1,30 @@
+
+/*Reel360*/
+.reelWrapper {
+    width: 1024px;
+    height: auto;
+    position: absolute;
+    z-index: 1;
+}
+
+.hotspotL {
+    display: none;
+    background-position: -112px -56px !important;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 29px;
+}
+
+.hotspotR {
+    display: none;
+    background-position: -138px -56px !important;
+    background-repeat: no-repeat;
+    width: 26px;
+    height: 29px;
+}
+
+#reel360-reel {
+    padding-top: 100px;
+}
+
+/*Reel360*/

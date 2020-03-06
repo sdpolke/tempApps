@@ -1,0 +1,55 @@
+
+
+/*CompetitionElement*/
+.CompetitionElement{
+    position: absolute;
+}
+.CompetitionElement h2{
+    font-size: 16px;
+    color: #464646;
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    padding-left: 4px;
+    border-bottom: 1px solid #747474;
+    width:869px;
+    padding-bottom: 4px;
+    margin-bottom: 36px;
+}
+.CompetitionElement ul li{
+    width:121px;
+    height: 24px;
+    background: url("../img/lowRes/vehicles/corolla/competitionCars.png") 0px 0px no-repeat;
+    float: left;
+    margin-left: 5px;
+    padding-top: 84px;
+    text-align: center;
+    font-family: 'helveticaneueBold';
+    font-size: 13px;
+    color: #464646;
+}
+.CompetitionElement ul li:first-child{
+    margin-left: 0px;
+}
+
+.CompetitionElement ul li.car0{
+    background-position: 0px 0px;
+}
+.CompetitionElement ul li.car1{
+    background-position: -363px 0px;
+}
+.CompetitionElement ul li.car2{
+    background-position: -121px 0px;
+}
+.CompetitionElement ul li.car3{
+    background-position: -242px 0px;
+}
+.CompetitionElement ul li.car4{
+    background-position: -605px 0px;
+}
+.CompetitionElement ul li.car5{
+    background-position: -484px 0px;
+}
+.CompetitionElement ul li.car6{
+    background-position: -726px 0px;
+}
+/*CompetitionElement*/

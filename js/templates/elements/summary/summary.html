@@ -1,0 +1,19 @@
+<div class="summaryElement">
+    <div class="leftInfo">
+     <h2><%=element.title%><small><%=element.subTitle%></small></h2>
+    <div class="score">
+        <h1><%=element.score%></h1>
+    </div>
+    <div class="description"><%=element.description%></div>
+        <div class="bullet">
+            <ul>
+                <% _.each(element.bullet, function(bullet,index){ %>
+                <li><%=bullet.description%></li>
+                <%});%>
+            </ul>
+        </div>
+    </div>
+   <div class="summaryImage <%=element.imgClass%>">
+
+   </div>
+</div>

@@ -1,0 +1,60 @@
+
+/*summaryElement*/
+.summaryElement{
+    position: absolute;
+}
+.summaryElement .leftInfo{
+    width:317px;
+}
+.summaryElement h2{
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    font-size: 15px;
+    color:#3a3a3a;
+    margin-bottom: 7px;
+}
+.summaryElement h2 small{
+    display: block;
+    font-family: 'helveticaneueRoman';
+}
+.summaryElement .score{
+    border-top: 1px solid #b0b0b0;
+    border-bottom: 1px solid #b0b0b0;
+    margin-bottom: 12px;
+}
+.summaryElement .score h1{
+    font-family: 'helveticaneueMedium';
+    font-weight: normal;
+    font-size: 47px;
+    color: #e41b23;
+    line-height: 54px;
+}
+.summaryElement .description{
+    font-size: 11px;
+    line-height: 17px;
+    color:#464646;
+    font-family: 'helveticaneueRoman';
+    width: 268px;
+    margin-bottom: 16px;
+}
+.summaryElement .bullet ul{
+    list-style: disc;
+    width: 268px;
+}
+.summaryElement .bullet ul li{
+    font-size: 11px;
+    line-height: 17px;
+    color:#464646;
+    font-family: 'helveticaneueRoman';
+    margin-bottom: 20px;
+}
+.summaryImage{
+    background-repeat: no-repeat;
+    width: 560px;
+    height: 408px;
+    position: absolute;
+}
+.newFeatureSummary{
+    background-image: url("../img/lowRes/vehicles/corolla/summaryCorollaVehicle.jpg");
+}
+/*summaryElement*/

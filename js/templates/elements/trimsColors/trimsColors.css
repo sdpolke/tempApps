@@ -1,0 +1,201 @@
+
+/*trims & colors*/
+.trimsColors{
+    width:1024px;
+    position: absolute;
+    padding-top:134px;
+}
+.vehicleTrimsColors{
+    margin:0 auto;
+    width:480px;
+    height:280px;
+    background: url("../img/lowRes/vehicles/corolla/vehicleModels.png") 0 0 no-repeat;
+}
+.blackSandMicaL{
+    background-position: 0 0;
+}
+.classicSilverMettalicL{
+    background-position: -480px 0;
+}
+.slateMetallicL{
+    background-position: -960px 0;
+}
+.superWhiteL{
+    background-position: -1440px 0;
+}
+.blackSandMicaLE{
+    background-position: 0px -280px;
+}
+.classicSilverMettalicLE{
+    background-position: -480px -280px;
+}
+.slateMetallicLE{
+    background-position: -960px -280px;
+}
+.superWhiteLE{
+    background-position: -1440px -280px;
+}
+.everGreenMetallicLE{
+    background-position: -1920px -280px;
+}
+.barcelonaRedMetallicLE{
+    background-position: -2400px -280px;
+}
+.slateMetallicECO{
+    background-position: -960px -560px;
+}
+.brownSugarMettalicECO{
+    background-position: -1440px -560px;
+}
+.everGreenMetallicECO{
+    background-position: -1920px -560px;
+}
+.blackSandMicaS{
+    background-position: 0px -840px;
+}
+.classicSilverMettalicS{
+    background-position: -480px -840px;
+}
+.slateMetallicS{
+    background-position: -960px -840px;
+}
+.superWhiteS{
+    background-position: -1440px -840px;
+}
+.blueCrushMetallicS{
+    background-position: -1920px -840px;
+}
+.barcelonaRedMetallicS{
+    background-position: -2400px -840px;
+}
+.modelSelect{
+    border-top:1px solid #adadad;
+    padding-top:11px;
+    width:825px;
+    margin:0 auto;
+}
+.modelSelectorWrap{
+    float:left;
+    width:100%;
+    overflow:hidden;
+    position:relative;
+}
+.btnModelSelector{
+    clear:left;
+    float: left;
+    position:relative;
+    text-align:center;
+}
+.btnModelSelector li{
+    position:relative;
+    width:37px;
+    height:37px;
+    line-height: 37px;
+    text-align: center;
+    color: #464646;
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    font-size: 18px;
+    float: left;
+    cursor: pointer;
+    margin-right: 15px;
+    background-position: -270px -4px;
+}
+.btnModelSelector li.ECO{
+    font-size: 12px;
+}
+.btnModelSelector li.active{
+    color:#f8f8f8;
+    background-position: -270px -41px;
+}
+
+.trimsColors h2{
+    font-size: 16px;
+    color: #ce2020;
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    margin-bottom: 8px;
+    padding-left: 4px;
+    padding-bottom: 8px;
+    border-bottom:1px solid #adadad;
+}
+.trimsColors .bullet ul{
+    list-style-type: disc;
+    margin-bottom: 9px;
+}
+.trimsColors .bullet li{
+    float: left;
+    width:50%;
+    font-size: 11px;
+    color:#464646;
+    line-height: 16px;
+}
+.vehicleColor{
+    border-top:1px solid #adadad;
+    width:917px;
+    margin:0 auto;
+    padding-top:8px;
+}
+.vehicleColorWrap{
+    width:412px;
+    margin:0 auto;
+    overflow:hidden;
+    text-align: center;
+}
+.vehicleColorWrap span{
+    font-family: 'helveticaneueMedium';
+    font-size: 11px;
+    line-height: 27px;
+    color:#464646;
+    display: block;
+    /*margin-bottom:8px;*/
+}
+
+.vehicleColorWrap .btnVehicleColor li, .vehicleColorWrap .btnVehicleColor li span{
+    width:32px;
+    height:32px;
+    display: inline-block;
+    background: url("../img/lowRes/spriteVehicleColor.png") 0 0 no-repeat;
+    margin-right:9px;
+}
+.vehicleColorWrap .btnVehicleColor li{
+    position:relative;
+    z-index: 999;
+    cursor: pointer;
+}
+.vehicleColorWrap .btnVehicleColor li span{
+    z-index: 99;
+    position: absolute;
+    display: none;
+}
+.vehicleColorWrap .btnVehicleColor li.active span{
+    background-position: 0 -256px;
+    display: block;
+}
+.vehicleColorWrap .btnVehicleColor li.blackSandMica{
+    background-position:0 -96px ;
+}
+.vehicleColorWrap .btnVehicleColor li.classicSilverMettalic{
+    background-position:0 -32px ;
+}
+.vehicleColorWrap .btnVehicleColor li.slateMetallic{
+    background-position:0 -64px ;
+}
+.vehicleColorWrap .btnVehicleColor li.superWhite{
+    background-position: 0 0;
+}
+.vehicleColorWrap .btnVehicleColor li.everGreenMetallic{
+    background-position:0 -192px ;
+}
+.vehicleColorWrap .btnVehicleColor li.barcelonaRedMetallic{
+    background-position:0 -128px ;
+}
+.vehicleColorWrap .btnVehicleColor li.brownSugarMettalic{
+    background-position:0 -160px ;
+}
+.vehicleColorWrap .btnVehicleColor li.blueCrushMetallic{
+    background-position:0 -224px ;
+}
+
+
+/*trims & colors*/

@@ -1,0 +1,346 @@
+
+@font-face {
+    font-family: 'helveticaneueRoman';
+    src: url('../fonts/helveticaneue-roman-webfont.eot');
+    src: url('../fonts/helveticaneue-roman-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneue-roman-webfont.woff') format('woff'),
+    url('../fonts/helveticaneue-roman-webfont.ttf') format('truetype'),
+    url('../fonts/helveticaneue-roman-webfont.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helveticaneueMedium';
+    src: url('../fonts/helveticaneue-medium-webfont.eot');
+    src: url('../fonts/helveticaneue-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneue-medium-webfont.woff') format('woff'),
+    url('../fonts/helveticaneue-medium-webfont.ttf') format('truetype'),
+    url('../fonts/helveticaneue-medium-webfont.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'helveticaneueBold';
+    src: url('../fonts/helveticaneue-bold-webfont.eot');
+    src: url('../fonts/helveticaneue-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneue-bold-webfont.woff') format('woff'),
+    url('../fonts/helveticaneue-bold-webfont.ttf') format('truetype'),
+    url('../fonts/helveticaneue-bold-webfont.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneueItalic';
+    src: url('../fonts/helveticaneue-italic-webfont.eot');
+    src: url('../fonts/helveticaneue-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helveticaneue-italic-webfont.woff') format('woff'),
+    url('../fonts/helveticaneue-italic-webfont.ttf') format('truetype'),
+    url('../fonts/helveticaneue-italic-webfont.svg#helvetica_neueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* http://meyerweb.com/eric/tools/css/reset/    v2.0 | 20110126   License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    vertical-align: baseline;
+    font-family: 'helveticaneueRoman', sans-serif;
+    font-style: normal;
+    font-size: 14px;
+   /* line-height: 16px;
+    disable selection on tablet*/
+/*    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;*/
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {    display: block;}
+
+audio, canvas, video {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1
+}
+
+audio:not([controls]) {
+    display: none
+}
+
+[hidden] {    display: none }
+
+body {
+    line-height: 1;
+    overflow-y: scroll;
+}
+
+ol, ul {    list-style: none;}
+
+blockquote, q {    quotes: none;}
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus, :active {    outline: 0;}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+td {    vertical-align: top}
+
+A IMG {
+    border: 0;
+    outline: 0;
+}
+/* a, a:visited, a:focus, a:active  */
+a, a:visited, a:link, a:active {
+    color: #D91C13;
+    text-decoration: none;
+}
+
+a:focus {    outline: 0;}
+
+a:hover {
+    outline: 0;
+    color: #D91C13;
+    text-decoration: underline;
+
+}
+
+abbr[title] {    border-bottom: 1px dotted}
+
+b, strong {
+    font-family: 'helveticaneueBold', sans-serif;
+    font-weight: normal;
+}
+i, em {
+    font-family: 'helveticaneueItalic', sans-serif;
+    font-weight: normal;
+}
+
+blockquote {    margin: 1em 40px}
+
+dfn {    font-style: italic}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0
+}
+
+del {    text-decoration: line-through;}
+
+ins {
+    background: #ff9;
+    color: #000;
+    text-decoration: none
+}
+
+mark {
+    background: #ff0;
+    color: #000;
+    font-style: italic;
+    font-weight: bold
+}
+
+pre, code, kbd, samp {
+    font-family: monospace, serif;
+    _font-family: 'courier new', monospace;
+    font-size: 1em
+}
+
+pre {
+    white-space: pre;
+    white-space: pre-wrap;
+    word-wrap: break-word
+}
+
+q {    quotes: none}
+
+q:before, q:after {
+    content: "";
+    content: none
+}
+
+small {    font-size: 85%}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {    top: -0.5em}
+
+sub {
+    bottom: -0.25em
+}
+
+ul, ol {
+    margin: 0;
+    padding: 0
+}
+
+dd {    margin: 0 0 0 40px}
+
+nav ul, nav ol {
+    list-style: none;
+    list-style-image: none;
+    margin: 0;
+    padding: 0
+}
+
+img {
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+    vertical-align: middle
+}
+
+svg:not(:root) {    overflow: hidden}
+
+figure {    margin: 0}
+
+/* Normalizing form elements **/
+form {    margin: 0}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0
+}
+
+label {
+    cursor: pointer
+}
+
+legend {
+    border: 0;
+    *margin-left: -7px;
+    padding: 0
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0; padding: 0; outline: 0; border: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+    font-family: 'HelvNeueRoman', Helvetica Neue, Helvetica, sans-serif;
+}
+
+button, input {
+    line-height: normal;
+    *overflow: visible
+}
+
+table button, table input {
+    *overflow: auto
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"], [role="button"] {
+    cursor: pointer;
+    -webkit-appearance: button
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical
+}
+
+input:invalid, textarea:invalid {    background-color: #f0dddd}
+
+/*needs to be at end of ALL CSS CLASS*/
+.inline, ul.inline li {    display: inline;}
+
+.clear {
+    visibility: hidden !important;
+    clear: both !important;
+    line-height: 0px !important;
+    height: 0px !important;
+    font-size: 0px !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "" !important;
+    display: table !important;
+}
+
+.clearfix:after {    clear: both !important;}
+
+.clearfix {    zoom: 1 !important; /* For IE 6/7 (trigger hasLayout) */
+}
+
+.flLeft {    float: left !important;}
+
+.flRight {    float: right !important;}
+
+.debug {    border: 1px dotted red !important;}
+
+.hidden {
+    display: none;
+    visibility: hidden;
+}
+
+.noMarg {    margin: 0 !important;}
+
+.noPad {    padding: 0 !important;}
+
+.noBg {    background: none !important;}
+
+.noBd {    border: none !important;}
+
+.aLeft {    text-align: left !important;}
+
+.aRight {    text-align: right !important;}
+
+.aCenter {    text-align: center !important;}
+
+.aJustify {    text-align: justify !important;}
+
+/*End Reset*/
+

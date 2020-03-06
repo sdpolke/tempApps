@@ -1,0 +1,9 @@
+<div class="footerTrayHandle"></div>
+<div id="footerTray" class="footerTray">
+    <ul class="clearfix">
+        <% _.each(element, function(vehicle,index){ %>
+        <li><a href="<%=vehicle.action%>" class="vehicalId<%=vehicle.id%>"><%=vehicle.name%></a></li>
+        <% }); %>
+    </ul>
+
+</div>

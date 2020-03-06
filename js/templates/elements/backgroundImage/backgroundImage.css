@@ -1,0 +1,34 @@
+
+
+/*backgroundImagesElement*/
+.backgroundImagesElement{
+    width: 1024px;
+    height: 768px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+}
+.backgroundImagesElement.performance{
+    background-image: url("../img/lowRes/vehicles/corolla/performanceBg.jpg");
+}
+.backgroundImagesElement.style{
+    background-image: url("../img/lowRes/vehicles/corolla/styleBg.jpg");
+}
+.backgroundImagesElement.comfort{
+    background-image: url("../img/lowRes/vehicles/corolla/comfortBg.jpg");
+}
+.backgroundImagesElement.safetyChange{
+    background-image: url("../img/lowRes/vehicles/corolla/safetyBg.jpg");
+}
+.backgroundImagesElement.technology{
+    background-image: url("../img/lowRes/vehicles/corolla/technologyBg.jpg");
+}
+
+.titleElement.reverse h1,.titleElement.reverse h2{
+    color:#f8f8f8 !important;
+}
+.titleElement.normal h1,.titleElement.normal h2{
+    color:#3a3a3a !important;
+}
+/*backgroundImagesElement*/

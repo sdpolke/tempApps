@@ -1,0 +1,185 @@
+<%
+   var totalRank = 0
+	 _.each(trayMenu, function(item,index) {
+		if(index > 0) {
+		 totalRank = parseInt(totalRank) + parseInt(item.rank);
+		}
+	});
+	
+	totalRank = Math.round(totalRank/(trayMenu.length-1));
+%>
+
+<%
+if (App.config.menuType === "leftTray") {
+%>
+<div id="leftTrayContent">
+	<div id="leftMenuWrapper">
+		<div id="leftMenuModule">
+			<ul class="clearfix">
+			<% _.each(
+				_(trayMenu).sortBy("id"),
+				function(item,index) {
+					if(item.enable == false){
+						var className = 'disabled';
+					} else {
+						var className = '';
+					}
+					if(index > 0) {
+					%>
+					<li class="leftNav <%=className%>" data-action="<%=item.action%>"><h2><%=item.title%></h2></li>
+					<%
+					}
+				});
+			%>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<script type="text/javascript">
+$(".leftNav").click(function(){
+	 $("#leftTrayWrapper").animate({left:"-300px"});
+	 $("#menuHandle").animate({left:"0px"});
+	 $("#trayOpaque").css("z-index","0")
+});
+</script>
+
+
+
+
+<%
+} else if (App.config.menuType === "floating") {
+%>
+
+
+
+
+
+
+
+<div style="position: absolute;z-index:9999;border: medium none;" id="floatingMenuContent" class="ui-widget-content ui-draggable">
+ 	
+<div class="menuHolder"> 
+	<div>
+		<% var menuConfig = App.config.floatingMenu; %>
+		<div class="menu <%=trayConfig.classname%>" id="kpmenu">
+			<span class="NameNo"><%= trayConfig.heading %></span>
+		</div>
+		<%
+			var animations = {},
+				menuItems = trayMenu.sort(function(a, b) {return a.id-b.id});
+				
+			// Remove the first element, used for Landing page.
+			menuItems.shift();
+			
+			var items = menuItems.length,
+				radFactor = Math.PI/180,
+				initPoint = radFactor * 90,
+				angleUnit = radFactor * (360/items),
+				angle = angleUnit + initPoint,
+				radius = App.config.floatingMenu.radius;
+			
+			_.each(menuItems, function(item,index) {
+				if(item.enable == false){
+					var className = 'disabled';
+				} else {
+					var className = '';
+				}
+				
+				//animations[index] = {left: radius*Math.sin(angle), top: radius*Math.cos(angle), opacity:"1"};
+				//debugger;
+				%>
+				<div class="menuItem <%=item.classname%> leftNav <%=className%>"
+					data-action="<%=item.action%>" data-id="menuItem<%=index%>"
+					data-left="<%=radius*Math.sin(angle)%>"
+					data-top="<%=radius*Math.cos(angle)%>"><%=item.title%></div>	  
+		 		<%
+		 		angle += angleUnit;
+			});
+		
+			if (menuConfig.backgroundBubles) {
+				var bgBubbles = menuConfig.backgroundBubles,
+					angleUnit = radFactor * (360/bgBubbles),
+					bgRadius = Math.floor((Math.random() * App.config.floatingMenu.radius) + 50),
+					size;
+					
+				for (var i = 0; i < bgBubbles; i++) {
+					bgRadius = Math.floor((Math.random() * 100) + 50),
+					bubbleAngle = Math.floor((Math.random() * 360)) * radFactor,
+					size = Math.floor((Math.random() * 10) + menuConfig.bgbblMinSize);
+					
+					%><div class="bgBubble"
+						data-left="<%=bgRadius*Math.sin(bubbleAngle)%>"
+						data-top="<%=bgRadius*Math.cos(bubbleAngle)%>"
+						style="padding:<%=size%>px;"></div><%
+				}
+			}
+		%>
+	</div>
+</div>
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	var animations = {},
+	animSpeed = App.config.floatingMenu.animationSpeed;
+	$(".leftNav").each(function(index, element) {
+		element = $(element);
+		animations[index] = {
+				left: element.attr("data-left"),
+				top: element.attr("data-top"),
+				opacity:"1"
+		};
+	});
+	
+	if (App.config.floatingMenu.backgroundBubles) {
+		var bubbleAnims = {};
+		$(".bgBubble").each(function(index, element) {
+			element = $(element);
+			bubbleAnims[index] = {
+					left: element.attr("data-left"),
+					top: element.attr("data-top"),
+					opacity:"1"
+			};
+		});
+	}
+
+	var enabled = false;
+	$('#kpmenu').click(function() {
+		if (!enabled) {
+// 			function(){
+				$('.leftNav').each(function(index) {
+					$(this).stop().animate(animations[index],animSpeed).show();
+				});
+				$('.bgBubble').each(function(index) {
+					$(this).stop().animate(bubbleAnims[index],animSpeed).show();
+				});
+				enabled = true;
+// 			}
+		} else {
+// 			function() {
+				$('.leftNav, .bgBubble').each(function() {
+					$(this).stop().animate({left:0, top:0}, animSpeed, function() {
+						$(this).hide();
+					});
+				});
+				enabled = false;
+// 			}
+		}
+	});
+ 	 
+	if (App.transientData) {
+		$("#floatingMenuContent").css(App.transientData);
+	}
+	
+	$("#floatingMenuContent").draggable({
+		stop: function( event, ui ) {
+			App.transientData = ui.position;
+		}
+	});
+});
+</script>
+<%}%>
+
+		
+

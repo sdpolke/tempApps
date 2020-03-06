@@ -1,0 +1,80 @@
+/*home screen*/
+
+.homeScreen ol:first-child {
+    counter-reset: customlistcounter;
+}
+
+.homeScreen ol {
+    list-style-type: none;
+    margin-left: 0;
+}
+
+.homeScreen ol li {
+    counter-increment: customlistcounter;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    float: left;
+    color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+
+/*.homeScreen ol li:hover {
+    opacity: 0.5;
+}*/
+
+.homeScreen ol li:before {
+    content: counter(customlistcounter) " ";
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    float: left;
+    width: 3em;
+    position: absolute;
+    font-size: 17px;
+    color: #bbc7ce;
+}
+
+
+.homeScreen ol li h1 {
+    position: absolute;
+    font-family: 'helveticaneueBold';
+    border-left: 3px solid red;
+    font-size: 23px;
+    line-height: 18px;
+    padding-left: 7px;
+    color: #fbfbfb;
+    font-weight: normal;
+}
+
+.homeScreen ol li h1 small {
+    display: block;
+    font-size: 13px;
+    line-height: 13px;
+    padding-top: 9px;
+}
+
+.homeScreen ol li.moduleElement0 {
+    width: 681px;
+    height: 445px;
+    background: url("../img/lowRes/vehicles/corolla/newFeatures.jpg") 0 0 no-repeat;
+}
+
+.homeScreen ol li.moduleElement1 {
+    width: 343px;
+    height: 445px;
+    background: url("../img/lowRes/vehicles/corolla/learnTheCompetition.jpg") 0 0 no-repeat;
+}
+
+.homeScreen ol li.moduleElement2{
+    width: 512px;
+    height: 322px;
+    border-right: 1px solid #fff;
+    background: url("../img/lowRes/vehicles/corolla/sellItChallenge.jpg") 0 0 no-repeat;
+}
+.homeScreen ol li.moduleElement3{
+    width:511px;
+    height: 322px;
+    background: url("../img/lowRes/vehicles/corolla/assessment.jpg") 0 0 no-repeat;
+}
+
+/*home screen*/

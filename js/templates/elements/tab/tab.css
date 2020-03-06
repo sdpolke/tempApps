@@ -1,0 +1,161 @@
+
+
+
+.imageboxtab img{
+	height: 100%;
+	width:100%;
+}
+
+
+#myTab{
+	width:80% !important;
+	float: none;
+}
+
+.tab-pane img{
+	max-width: 100%;
+}
+
+
+/*Tab element*/
+
+.tabElement ul {
+    float: left;
+    position: relative;
+    z-index: 999;
+    margin-right: 24px;
+}
+
+.tabElement ul li, .tabElement ul li:focus {
+    font-family: 'helveticaneueBold';
+    font-size: 13px;
+    line-height: 37px;
+    height: 35px;
+    color: #d9d9d9;
+    display: block;
+    width: 152px;
+    padding-left: 17px;
+    cursor: pointer;
+}
+
+.tabElement ul li.active {
+    color: #000;
+}
+
+.tabElement .spriteTab {
+    background: url("../img/spriteTab.png") 100% -37px no-repeat;
+    width: 150px;
+    height: 35px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    padding-right: 18px;
+}
+
+.tabElement .spriteTab div {
+    background: url("../img/spriteTab.png") 0 0px no-repeat;
+    width: 100%;
+    height: 35px;
+}
+
+.tabElement .spriteTab.active {
+    background: url("../img/spriteTab.png") 100% -110px no-repeat;
+
+}
+
+.tabElement .spriteTab.active div {
+    background: url("../img/lowRes/spriteTab.png") 0 -74px no-repeat;
+}
+
+
+
+
+.tabPane {
+    display: none;
+}
+
+.tabPane h1 {
+    font-family: 'helveticaneueBold';
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 20px;
+    color: #e3e3e3;
+    margin-bottom: 10px;
+}
+
+.tabPane div {
+    font-size: 12px;
+    line-height: 16px;
+    color: #e3e3e3;
+}
+
+/*Tab element*/
+
+
+.tabElement {
+    margin-left: 13%;
+    margin-top: 10%;
+    width: 90%;
+}
+
+
+.imageboxtab{
+  	height: 378px;
+    margin-left: 2%;
+    margin-top: 2%;
+    width: 75%;
+}
+
+.tabContent {
+    float: left;
+    border-left: 3px solid #e41b23;
+    padding-left: 24px;
+    min-height: 140px;
+    width: 70%;
+}
+
+
+.tabElement .spriteTab{
+    background: url("../img/spriteTab.png") 100% -34px no-repeat;
+    background-size: 266px 66px;
+    width: 150px;
+    height: 33px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+    padding-right: 20px;
+}
+.tabElement .spriteTab div{
+    background: url("../img/spriteTab.png") 0 -1px no-repeat;
+    background-size: 266px 66px;
+    width: 100%;
+    height: 33px;
+}
+.tabPane h1{
+	color:#000 !important;
+}
+.tabPane div{
+	color:#000 !important;
+}
+
+
+
+
+/*--------RK Css Code----------*/
+ /*.tabElement ul{
+	background:#F1F1F1;
+	border:1px solid #D7D7D7;
+}
+
+.tabElement .active{
+	background-color:#FFFFCC;
+} 
+.tabPane h1{
+	color:#000 !important;
+}
+.tabPane div{
+	color:#000 !important;
+} */
+--------RK Css Code ends---------- */
